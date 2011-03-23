@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: KeyGeneration - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\U2\LOCALS~1\Temp\RSP2B.bat" with contents
+[
+@echo off
+copy "hlp\KeyGeneration.cnt" .\Debug
+]
+Creating command line "C:\DOCUME~1\U2\LOCALS~1\Temp\RSP2B.bat"
+Creating temporary file "C:\DOCUME~1\U2\LOCALS~1\Temp\RSP2C.bat" with contents
+[
+@echo off
+start /wait hcw /C /E /M "hlp\KeyGeneration.hpj"
+if errorlevel 1 goto :Error
+if not exist "hlp\KeyGeneration.hlp" goto :Error
+copy "hlp\KeyGeneration.hlp" .\Debug
+goto :done
+:Error
+echo hlp\KeyGeneration.hpj(1) : error:
+type "hlp\KeyGeneration.log"
+:done
+]
+Creating command line "C:\DOCUME~1\U2\LOCALS~1\Temp\RSP2C.bat"
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/KeyGeneration.tlb" /mktyplib203 /win32 "E:\My Program\T2\HideDragon\KeyGeneration\KeyGeneration.odl""
+Copying contents file...
+        1 file(s) copied.
+Making help file...
+hlp\KeyGeneration.hpj(1) : error:
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+keygeneration.hpj
+    HC5011: Error: keygeneration.hpj : 
+ Cannot open the file "C:\Program Files\Microsoft Visual Studio\VC98\MFC\include\afxhelp.hm."
+Creating command line "rc.exe /l 0x804 /fo"Debug/KeyGeneration.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "E:\My Program\T2\HideDragon\KeyGeneration\KeyGeneration.rc"" 
+Creating temporary file "C:\DOCUME~1\U2\LOCALS~1\Temp\RSP2D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/KeyGeneration.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\My Program\T2\HideDragon\KeyGeneration\DlgProxy.cpp"
+"E:\My Program\T2\HideDragon\KeyGeneration\KeyGeneration.cpp"
+"E:\My Program\T2\HideDragon\KeyGeneration\KeyGenerationDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\U2\LOCALS~1\Temp\RSP2D.tmp" 
+Creating temporary file "C:\DOCUME~1\U2\LOCALS~1\Temp\RSP2E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/KeyGeneration.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\My Program\T2\HideDragon\KeyGeneration\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\U2\LOCALS~1\Temp\RSP2E.tmp" 
+Creating temporary file "C:\DOCUME~1\U2\LOCALS~1\Temp\RSP2F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/KeyGeneration.pdb" /debug /machine:I386 /out:"Debug/KeyGeneration.exe" /pdbtype:sept 
+".\Debug\DlgProxy.obj"
+".\Debug\KeyGeneration.obj"
+".\Debug\KeyGenerationDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\KeyGeneration.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\U2\LOCALS~1\Temp\RSP2F.tmp"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing E:\My Program\T2\HideDragon\KeyGeneration\KeyGeneration.odl
+KeyGeneration.odl
+Processing D:\Program Files\Microsoft SDK\include\oaidl.idl
+oaidl.idl
+Processing D:\Program Files\Microsoft SDK\include\objidl.idl
+objidl.idl
+Processing D:\Program Files\Microsoft SDK\include\unknwn.idl
+unknwn.idl
+Processing D:\Program Files\Microsoft SDK\include\wtypes.idl
+wtypes.idl
+Processing D:\Program Files\Microsoft SDK\include\basetsd.h
+basetsd.h
+Processing D:\Program Files\Microsoft SDK\include\guiddef.h
+guiddef.h
+Processing D:\Program Files\Microsoft SDK\include\oaidl.acf
+oaidl.acf
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DlgProxy.cpp
+KeyGeneration.cpp
+KeyGenerationDlg.cpp
+E:\My Program\T2\HideDragon\KeyGeneration\KeyGenerationDlg.cpp(246) : warning C4101: 'hd_guid2' : unreferenced local variable
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+KeyGeneration.exe - 2 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,1088 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDIALOG DIALOG  0, 0, 408, 262
+STYLE DS_SETFONT | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "HideDragon 3.21"
+MENU IDR_MENU2
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "R&efresh",IDC_REFRESH,330,159,65,13,NOT WS_VISIBLE
+    PUSHBUTTON      "H&ide Icon",IDC_HIDEICON,336,19,65,13,NOT WS_VISIBLE
+    CTEXT           "right + left",IDC_MOUSE,102,21,64,9,SS_SUNKEN | NOT WS_VISIBLE
+    ICON            IDI_ICON1,IDC_STATIC,8,19,20,20,NOT WS_VISIBLE
+    GROUPBOX        "Windows List:",IDC_STATIC_FOREGROUND,7,60,394,121,NOT WS_VISIBLE
+    PUSHBUTTON      "&Clear",IDC_RESTORE,264,159,65,13,NOT WS_VISIBLE
+    CONTROL         "List2",IDC_LISTVIEW,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,13,70,382,83
+    CONTROL         "Always on the to&p",IDC_CHECK_ONTOP,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,171,20,85,10
+    PUSHBUTTON      "&Update Now...",IDC_UPDATE,303,46,65,13,NOT WS_VISIBLE
+    LTEXT           "已检测到更新版本，推荐你",IDC_STATIC_UPDATE,186,49,103,8,NOT WS_VISIBLE
+    CONTROL         "List1",IDC_LIST_BK,"SysListView32",LVS_REPORT | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,13,191,381,49
+    GROUPBOX        "Background runned program list:",IDC_STATIC_BKGROUP,7,181,394,78,NOT WS_VISIBLE
+    PUSHBUTTON      "&Show",IDC_SHOWBK,272,244,122,13,NOT WS_VISIBLE
+    CONTROL         "Auto-Hide the popup window of the hidde&n item",IDC_CHECK_AUTOHIDE,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,13,245,215,10
+    LTEXT           "Static",IDC_STATIC_GMAILSTYLEADS,234,163,20,10,SS_SUNKEN | NOT WS_VISIBLE
+    CONTROL         "HotKey1",IDC_HOTKEY_HA,"msctls_hotkey32",NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,102,55,64,11
+    CONTROL         "HotKey2",IDC_HOTKEY_SS,"msctls_hotkey32",NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,102,45,64,11
+    LTEXT           "Mouse:",IDC_STATIC_MOUSE,33,22,29,8,NOT WS_VISIBLE
+    LTEXT           "Hide Windows:",IDC_STATIC_HIDEALLWINDOW,33,34,53,8,NOT WS_VISIBLE
+    LTEXT           "Show HideDragon:",IDC_STATIC_SHOWHIDEDRAGON,33,46,63,8,NOT WS_VISIBLE
+    CTEXT           "Click mouse right + left button to hide all windows.",IDC_STATIC_USEAGETIP,73,2,262,14,SS_NOTIFY | SS_CENTERIMAGE
+    PUSHBUTTON      "&Option",IDC_OPTION,269,19,65,13,NOT WS_VISIBLE
+    PUSHBUTTON      "&Backgrounding Program...",IDC_BKWIZARD,269,32,132,13,NOT WS_VISIBLE
+    PUSHBUTTON      "展开(&P)",IDC_STATIC_EXPANDINFO,353,2,30,13,NOT WS_VISIBLE
+END
+
+IDD_DIALOGABOUT DIALOGEX 0, 0, 247, 163
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About HideDragon..."
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "HideDragon 3.6",IDC_STATICNAME,38,8,105,8
+    ICON            IDI_ICON1,IDC_STAIICICON,8,9,20,20
+    LTEXT           "Copyright (C) 2003.4 - 2011.3 HideDragon",IDC_STATICCOPYRIGHT,38,18,181,9
+    LTEXT           "All Rights Reserved.",IDC_STATICRESERVED,38,29,169,10
+    LTEXT           "EMail:hdsupport@gmail.com",IDC_STATICEMAIL,10,62,122,8,SS_NOTIFY
+    LTEXT           "http://www.store3000.com/hidedragon",IDC_STATICHTTP,10,72,167,8,SS_NOTIFY
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,97,234,1
+    EDITTEXT        IDC_EDITCREDIT,8,101,234,61,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL | NOT WS_TABSTOP
+    LTEXT           "QQ:",IDC_STATIC_IMNUMBER,10,84,21,8
+    EDITTEXT        IDC_EDIT_QQ,32,84,108,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    LTEXT           "This software license to:",IDC_ABOUT_STATIC_LICENSETO,71,45,19,8,NOT WS_VISIBLE
+    LTEXT           "UserName",IDC_ABOUT_STATIC_LICENSENAME,38,44,22,8,NOT WS_VISIBLE
+END
+
+IDD_DIALOGREADME DIALOG  0, 0, 245, 196
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ReadMe"
+FONT 8, "宋体"
+BEGIN
+    CONTROL         "",IDC_RICHEDIT2,"RichEdit20W",ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_TABSTOP,7,6,237,187
+END
+
+IDD_DIALOGHOTKEY DIALOG  0, 0, 243, 209
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hotkey setting"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Enable Mouse Hook",IDC_CHECKMOUSE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,34,202,10
+    CONTROL         "Must Press &Right Button ",IDC_CHECK_RIGHTFIRST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,47,48,192,10
+    CONTROL         "HotKey2",IDC_HOTKEY_HIDEALL,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,35,92,90,12
+    CONTROL         "&Must Use Hotkey Show Hided Window",IDC_CHECKRESHK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,108,189,10
+    CONTROL         "HotKey3",IDC_HOTKEY_SHOWSELF,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,35,160,90,12
+    CONTROL         "HideDragon to Background Show Ti&p",IDC_CHECK_SHOWBKTIP,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,177,201,10
+    LTEXT           "Hide Taskbar Window Hotkey:",IDC_STATIC_HIDEALLWINDOWHOTKEY,17,77,196,8
+    LTEXT           "Show HideDragon Hotkey:",IDC_STATIC_SHOWHIDEDRAGONHOTKEY,17,145,198,10
+    LTEXT           "Use Mouse Left + Right Button Hide Window:",IDC_STATIC_ISUSEMOUSE,17,9,199,8
+    CONTROL         "Use Mouse Middle Button",IDC_CHECK_MIDDBUTTON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,20,203,10
+END
+
+IDD_DIALOGOTHER DIALOG  0, 0, 245, 208
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Other setting"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDITINTERVAL,79,193,35,12,ES_AUTOHSCROLL | ES_WANTRETURN | ES_NUMBER | NOT WS_VISIBLE
+    CONTROL         "Spin1",IDC_SPIN,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK | NOT WS_VISIBLE,113,194,11,14
+    LTEXT           "刷新间隔(1~9秒):",IDC_STATIC,17,195,59,8,NOT WS_VISIBLE
+    CONTROL         "Close all hidd&en windows",IDC_RADIOKILL,"Button",BS_AUTORADIOBUTTON,28,141,190,10
+    CONTROL         "Di&splay all hidden windows",IDC_RADIOSHOW,"Button",BS_AUTORADIOBUTTON,28,153,188,10
+    CONTROL         "手动刷新(&M)",IDC_CHECKREFRESH,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,17,179,61,13
+    CONTROL         "Minimize the systemic sound after the &hidden windows",IDC_CHECK_DISABLESOUND,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,23,220,10
+    CONTROL         "R&un HideDragon when Windows Startup",IDC_CHECK_AUTORUN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,34,215,10
+    CONTROL         "Add HideDragon Sho&rtcut into Quick Launch Area",IDC_CHECK_ADDQL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,26,67,212,10
+    LTEXT           "System",IDC_STATIC_OTEHRSYSTEM,17,10,34,8
+    LTEXT           "The hidden windows when exit HideDragon:",IDC_STATIC_WHENEXITWINDOW,17,128,187,8
+    LTEXT           "刷新选项",IDC_STATIC_REFRESHOPTION,9,169,83,8,NOT WS_VISIBLE
+    CONTROL         "&Not Show HideDragon After Run",IDC_CHECK_HIDEMAINWND,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,45,192,10
+    CONTROL         "Not Show &Tray Icon After HideDragon Run",IDC_CHECK_NOTSHOWICON,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,56,196,10
+    CONTROL         "Not Show Process In Task Manager List After HideDragon Run",IDC_CHECK_NOTSHOWPROCESS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,79,215,10
+END
+
+IDD_DIALOGHISTORY DIALOG  0, 0, 184, 145
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Version History"
+FONT 11, "宋体"
+BEGIN
+    CONTROL         "",IDC_RICHEDITHIST,"RichEdit20W",ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | ES_NUMBER | WS_BORDER | WS_VSCROLL | WS_TABSTOP,5,4,177,139
+END
+
+IDD_DIALOG_REGISTER DIALOGEX 0, 0, 292, 262
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Registration"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_MIDDLECODE,13,178,264,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RC1,13,212,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RC2,85,212,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RC3,157,212,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RC4,229,212,48,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Register",IDC_COMPLETEREG,129,240,71,14
+    PUSHBUTTON      "Remind Me Later",IDC_CANCELREG,208,240,71,14
+    LTEXT           "Registration Code:",IDC_STATIC_REGCODE,13,197,264,11
+    LTEXT           "Email this code to us:",IDC_STATIC_ORGCODE,13,163,263,11
+    LTEXT           "-",IDC_STATIC,71,214,8,8
+    LTEXT           "-",IDC_STATIC,143,214,8,8
+    LTEXT           "-",IDC_STATIC,215,215,8,8
+    LTEXT           "You can only run 30 times.",IDC_STATIC_BENIFIT1,29,33,231,10
+    LTEXT           "Feedback and Support",IDC_STATIC_FEEDBACK,29,79,235,11,0,0,HIDC_STATIC_FEEDBACK
+    LTEXT           "We provide free technical assistance.",IDC_STATIC_BENIFIT3,29,95,235,11
+    GROUPBOX        "Tech.Support",IDC_STATIC_AFTERREGISTER,13,5,264,134
+    LTEXT           "Limitation of trail version:",IDC_STATIC_LIMIT,29,18,235,10
+    LTEXT           "Please email to :",IDC_STATIC_PLEASEEMAIL,29,107,235,8
+    LTEXT           "hdsupport@gmail.com",IDC_STATIC_SUPPORTMAIL,29,119,235,12,SS_NOTIFY
+    RTEXT           "Buy HideDragon",IDC_STATIC_BUYLINK,139,146,136,11,SS_NOTIFY
+    LTEXT           "after register have no ads version.",IDC_STATIC_BENIFIT2,29,47,220,8
+END
+
+IDD_DIALOGPASSWORD DIALOG  0, 0, 260, 214
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password Protect"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "&Eanble password protection",IDC_CHECK_USEPASSWORD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,98,186,10
+    EDITTEXT        IDC_EDIT_PASSWORD,84,114,129,12,ES_PASSWORD | ES_WANTRETURN
+    EDITTEXT        IDC_EDIT_VALIDATE,84,131,129,12,ES_PASSWORD | ES_WANTRETURN
+    LTEXT           "Password:",IDC_STATIC_PASSWORDLABEL,22,118,51,8
+    LTEXT           "Input again:",IDC_STATIC_PASSWORDREENTER,22,134,53,8
+    LTEXT           "If you make the password-protection setting, you have to input the password to redisplay the hidden windows. If the password is not correct, the hidden windows won't show due to the security manner.",IDC_STATIC_WHYUSEPASSWORD,19,12,206,42
+    LTEXT           "Password can be changed without inputting the old one, considering the password may be forgotten by the user.",IDC_STATIC_PASSWORDUSETIP,19,59,206,24
+END
+
+IDD_WIZARD_SELWINDOWANDICON DIALOG  0, 0, 299, 154
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HideDragon Program Background Wizard"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST_ICONANDWINDOW,"SysListView32",LVS_REPORT | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,32,285,115
+    LTEXT           "Select the icon and window to Backgrounding。Through double click item or check  front checkbox.",IDC_STATIC_SOMETIP,7,3,285,21
+END
+
+IDD_WIZARD_FINISH DIALOG  0, 0, 302, 152
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HideDragon Program Background Wizard"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST_VALIDATE,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,14,42,281,102
+    LTEXT           "If click Finish, the below item will hide to background.",IDC_STATIC_CLICKFINISHTOHIDEWINDOW,14,7,280,24
+END
+
+IDD_WIZARD_BEGINBK DIALOG  0, 0, 299, 190
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HideDragon Program Background Wizard"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Welcome Use HideDragon Backgrounding Wizard:",IDC_STATIC_WELCOMETOUSEWIZARD,103,16,183,20
+    LTEXT           "This wizard can help you:",IDC_STATIC_THISWIZARDTOHELPYOU,104,74,182,18
+    LTEXT           "Hide tray icon to Background.",IDC_STATIC_SPECIFYICONTOBK,122,95,149,22
+    LTEXT           "Hide desktop window to background, if this window have tray icon, the icon will hide.",IDC_STATIC_SPECIFYPROGRAMTOBK,122,126,157,45
+END
+
+IDD_DIALOGBK DIALOG  0, 0, 249, 188
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Backgraound option..."
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "A&uto-Hide popup windows of background processing programs",IDC_CHECK_AUTOHIDEBK,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,26,27,218,19
+    LTEXT           "Background Options",IDC_STATIC_BACKGROUNDOPTION,13,9,230,13
+    LTEXT           "Automatic Hide Selected Program:",IDC_STATIC_AUTOHIDE,13,64,230,12
+    CONTROL         "&Enable Auotmatic Hide Selected Program",IDC_CHECK_AUTOHIDEANY,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,26,79,218,17
+    LTEXT           "Double click Window List Item:",IDC_STATIC_DOUBLECLICK,13,126,233,16
+    CONTROL         "&Background this window",IDC_RADIO_BKITEMNOW,"Button",BS_AUTORADIOBUTTON,26,145,220,10
+    CONTROL         "Bring this &window to foreground",IDC_RADIO_BRINGITEM,
+                    "Button",BS_AUTORADIOBUTTON,26,160,219,10
+    CONTROL         "&Check this item",IDC_RADIO_CHECKITEM,"Button",BS_AUTORADIOBUTTON,26,175,220,10
+    CONTROL         "&Hide Now After Add Window or Tray Icon To Auto Hide List ",IDC_CHECK_HIDEAUTOHIDE,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | NOT WS_VISIBLE | WS_TABSTOP,26,96,215,19
+END
+
+IDD_DIALOGQUICKHIDE DIALOG  0, 0, 270, 210
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Quick Hide"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Automati&c Reserve Item by Memorize Use ",IDC_CHECK_AUTOMEM,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,40,232,10
+    CONTROL         "Automatic Hid&e Popup Window of  Hided Window",IDC_CHECK_HIDEPOPUP,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,26,234,10
+    CONTROL         "Reserve Checked &Item",IDC_RADIO_RESERVE,"Button",BS_AUTORADIOBUTTON,30,178,193,10
+    CONTROL         "Hide Checke&d Window",IDC_RADIO_HIDE,"Button",BS_AUTORADIOBUTTON,30,192,208,10
+    LTEXT           "Checked Window in Window List",IDC_STATIC_SELECTED,16,160,248,12
+    LTEXT           "System",IDC_STATIC_SYSTEMSETTING,16,9,196,11
+    CONTROL         "&Run Program When Hide Window:",IDC_CHECK_NEEDSTART,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,111,216,10
+    EDITTEXT        IDC_EDIT_PPATH,30,127,209,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Program &Path:",IDC_BUTTON_SELPATH,164,143,75,14
+    CONTROL         "Hide All Visible &Tray Icon After Quick Hide Window",IDC_CHECK_HIDEALLTRAY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,54,232,10
+    CONTROL         "C&lean History After Quick Hide Window",IDC_CHECK_CLEANAFTERHIDE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,67,234,10
+    CONTROL         "Hide &Process in System Process List After Hide Window",IDC_CHECK_HIDEPROCESS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,94,236,11
+    CONTROL         "&Terminate process of hided window",IDC_CHECK_HIDEEXITPROCESS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,81,226,10
+END
+
+IDD_DIALOG_BACKTIP DIALOG  0, 0, 259, 89
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "HideDragon"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "HideDragon Will To Background ,You Can Press Hotkey",IDC_STATIC_BKTIP_THROUGHHOTKEY,13,7,221,19
+    LTEXT           "OR",IDC_STATIC_BK_OR,127,39,18,8
+    LTEXT           "Run HideDragon Again.",IDC_STATIC_BK_RUNAGAIN,152,49,92,8
+    LTEXT           "To Show HideDragon Again.",IDC_STATIC_RESHOW,13,60,99,8
+    GROUPBOX        "",IDC_STATIC,7,2,244,70
+    CONTROL         "Do &Not Show This Tip",IDC_CHECK_DONTSHOWTIP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,76,121,10
+    PUSHBUTTON      "关闭(&C)",IDC_CLOSE,185,73,66,14
+    CONTROL         "HotKey1",IDC_HOTKEY_TIPSS,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,152,26,79,11
+END
+
+IDD_DIALOG_MOUSEMOTION DIALOG  0, 0, 277, 179
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mouse Motion"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "启用鼠标手势(&E)",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,14,121,10
+    PUSHBUTTON      "定义鼠标手势(&C)",IDC_BUTTON1,25,138,136,14
+    COMBOBOX        IDC_COMBO_PREDEFINE,22,84,188,54,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "使用预定义的鼠标手势(&P)",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,45,116,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,133,49,122,1
+END
+
+IDD_DIALOG_MULTILANGUAGE DIALOG  0, 0, 266, 174
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MultiLanguage"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,13,46,242,116
+    LTEXT           "请在下面选择隐身专家界面的语言：",IDC_STATIC,13,9,151,21
+END
+
+IDD_DIALOG_AUTOUPDATE DIALOG  0, 0, 275, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Automatic Update"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "En&able Automatic Update",IDC_RADIO_AUTOUPDATE,"Button",BS_AUTORADIOBUTTON,32,26,208,10
+    CONTROL         "Only Tip Me, When New Update Exist",IDC_RADIO_TIP,
+                    "Button",BS_AUTORADIOBUTTON,32,97,208,15
+    GROUPBOX        "",IDC_STATIC,8,4,259,180,NOT WS_VISIBLE
+    LTEXT           "Enable Auto Update The New Version Will Download to Local And Update ,Don't Tip User,Suggist.",IDC_STATIC_AUTOUPDATESEL,47,41,187,37
+    LTEXT           "Tip User When New Version Publish, User Decide If Update.",IDC_STATIC_PROMPTSTATIC,47,115,185,35
+    LTEXT           "Automatic Update",IDC_STATIC_UPDATE,11,11,113,8
+END
+
+IDD_DIALOG_BKWNDHOTKEY DIALOG  0, 0, 261, 123
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Custom Background Hotkey"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "HotKey1",IDC_HOTKEY_BKWINDOW,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,57,36,107,12
+    CONTROL         "&Save this hotkey ",IDC_CHECK_SAVEHK,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,11,59,202,12
+    DEFPUSHBUTTON   "OK",IDC_OK,134,101,55,14
+    PUSHBUTTON      "Cancel",IDC_CANCEL,194,101,55,14
+    LTEXT           "Press Hotkey in Below Box",IDC_STATIC_ACQUIREHOTKEY,8,9,239,20
+    LTEXT           "Hotkey:",IDC_STATIC_HOTKEYLABEL,9,38,41,8
+    LTEXT           "If You Want Register Hotkey ,Must Press Hotkey in This Box.",IDC_STATIC_BKNOTEMPTY,27,78,220,17,NOT WS_VISIBLE
+END
+
+IDD_DIALOG_CHANGEWNDTITLE DIALOG  0, 0, 254, 100
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Change Window Title"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_OK,119,78,58,14
+    PUSHBUTTON      "Cancel",ID_CANCEL,182,78,58,14
+    LTEXT           "Please Input to be Changed Title in Below, Or Select Preprovided Title:",IDC_STATIC_INPUTWNDTITLE,13,11,227,12
+    LTEXT           "Title Must Not Empty, Please Enter Title.",IDC_STATIC_DONOTEMPTY,30,54,206,10,NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBO_WNDTITLE,13,28,227,112,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_PROPERTY DIALOG  0, 0, 315, 252
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "属性"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,227,232,64,14
+    LTEXT           "Process ID:",IDC_STATIC,14,15,47,8
+    LTEXT           "进程名：",IDC_STATIC,141,15,58,8
+    LTEXT           "可见窗口的数量：",IDC_STATIC,9,45,81,8
+    LTEXT           "可见窗口标题及句柄：",IDC_STATIC,13,64,104,8
+    LTEXT           "新的图标：",IDC_STATIC,153,130,62,8
+    LTEXT           "原来的图标：",IDC_STATIC,15,127,71,8
+    LTEXT           "原始的标题：",IDC_STATIC,14,165,70,8
+    LTEXT           "新的标题：",IDC_STATIC,15,183,71,8
+    LTEXT           "透明度：",IDC_STATIC,12,201,52,8
+    LTEXT           "转到后台的快捷键：",IDC_STATIC,144,193,92,8
+    LTEXT           "是否自动保留：",IDC_STATIC,8,223,72,8
+    LTEXT           "托盘图标：",IDC_STATIC,145,39,60,8
+    EDITTEXT        IDC_EDIT_PROCESSID,65,13,40,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PROCESSNAME,202,12,96,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_WNDNUM,91,43,40,14,ES_AUTOHSCROLL
+    ICON            "",IDC_ICON_TRAY,195,32,20,20
+    CONTROL         "List1",IDC_LIST_TITLEANDHANDLE,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,19,75,281,47
+    ICON            "",IDC_ICON_ORG,103,124,20,20
+    ICON            "",IDC_ICON_NEW,220,123,20,20
+    EDITTEXT        IDC_EDIT_ORGTITLE,97,162,201,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NEWTITLE,98,179,202,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TRANSPARENT,75,200,54,12,ES_AUTOHSCROLL
+    CONTROL         "HotKey1",IDC_HOTKEY_BK,"msctls_hotkey32",WS_DISABLED | WS_BORDER | WS_TABSTOP,146,212,92,11
+    EDITTEXT        IDC_EDIT_AUTORESERVE,84,223,40,12,ES_AUTOHSCROLL
+END
+
+IDD_PROPERTY_GENERAL DIALOG  0, 0, 292, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "General"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_PAGE_WNDNUM,12,29,42,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "List1",IDC_LIST_PAGE_TITLEANDHANDLE,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,12,69,274,74
+    EDITTEXT        IDC_EDIT_PAGE_ORGTITLE,98,157,188,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_PAGE_NEWTITLE,98,174,188,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "The Visible Window Counts:",IDC_STATIC_VISIBLEWNDNUM,12,14,240,8
+    LTEXT           "Visible Window Title and Handle:",IDC_STATIC_WNDTITLEANDHANDLE,12,55,264,8
+    LTEXT           "Original Title:",IDC_STATIC_ORGTITLE,12,159,78,8
+    LTEXT           "New Title:",IDC_STATIC_NEWTITLE,12,175,79,8
+END
+
+IDD_PROPERTY_ADDITIONAL DIALOG  0, 0, 297, 217
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Additional "
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_PAGE_AUTORESERVE,13,169,65,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "New Icon:",IDC_STATIC_NEWICON,180,82,91,8
+    LTEXT           "Original Icon:",IDC_STATIC_ORGICON,180,38,95,8
+    LTEXT           "Backgrounding Hotkey:",IDC_STATIC_PROPERTY_BKHOTKEY,13,110,122,8
+    LTEXT           "Automatic Reserve:",IDC_STATIC_AUTORESERVE,13,155,107,8
+    LTEXT           "Tray Icon:",IDC_STATIC_TRAYICON,179,128,97,8
+    ICON            "",IDC_ICON_PAGE_TRAY,221,146,20,20
+    ICON            "",IDC_ICON_PAGE_ORG,224,54,20,20
+    ICON            "",IDC_ICON_PAGE_NEW,224,98,20,20
+    CONTROL         "HotKey1",IDC_HOTKEY_PAGE_BK,"msctls_hotkey32",WS_DISABLED | WS_BORDER | WS_TABSTOP,13,124,100,11
+    LTEXT           "无",IDC_STATIC_NOTRAYICON,226,150,54,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_PAGE_PROCESSNAME,13,77,100,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Process Name:",IDC_STATIC_PROCESSNAME,13,63,98,8
+    EDITTEXT        IDC_EDIT_PAGE_PROCESSID,13,29,100,12,ES_UPPERCASE | ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Process ID:",IDC_STATIC_PROCESSID,13,14,100,8
+    GROUPBOX        "Icon",IDC_STATIC_PTY_ICON,153,20,130,157
+END
+
+IDD_DIALOG_RESUMETIP DIALOG  0, 0, 336, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "隐身专家"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "显示所有窗口(&S)",IDC_BUTTON_SHOWALL,151,149,85,14
+    PUSHBUTTON      "仍旧隐藏(&H)",IDC_BUTTON_KEEPHIDE,240,149,85,14
+    LTEXT           "隐身专家在上一次运行时非正常中止，现在检测到有未重新显示的窗口：",IDC_STATIC,73,16,245,26
+    ICON            "",IDC_STATIC,15,7,20,20
+    CONTROL         "List1",IDC_LIST_HIDEDWND,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,14,67,312,77
+    GROUPBOX        "隐身专家上次运行时未重新显示的窗口",IDC_STATIC,6,51,327,119
+END
+
+IDD_DIALOG_EXITTIP DIALOG  0, 0, 319, 118
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "HideDragon"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "确定(&O)",IDOK,159,96,63,14
+    DEFPUSHBUTTON   "取消(&C)",IDCANCEL,237,96,61,14
+    LTEXT           "如果现在退出隐身专家，您的系统将不再具有快速隐藏窗口功能。",IDC_STATIC_TIPTEXT,53,10,226,24
+    LTEXT           "现在系统内含有未恢复窗口图标和窗口标题的窗口，如果现在退出隐身专家，这些窗口将得不到恢复。",IDC_STATIC_TIPTEXT2,50,40,240,23
+    LTEXT           "确实要退出吗？",IDC_STATIC,51,66,137,8
+    ICON            IDI_ICON_INFORMATION,IDC_STATIC_TIPICON,9,12,20,20
+    CONTROL         "不要再显示此提示",IDC_CHECK_DONTSHOWEXITTIP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,83,148,10
+END
+
+IDD_DIALOG2 DIALOG  0, 0, 314, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,27,57,246,49
+    LTEXT           "Window Title:",IDC_STATIC,31,137,53,8
+    EDITTEXT        IDC_EDIT1,87,135,177,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Add...",IDC_BUTTON1,264,60,50,14
+    PUSHBUTTON      "OK",IDC_BUTTON2,167,185,50,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON3,232,185,50,14
+    PUSHBUTTON      "Delete",IDC_BUTTON4,264,78,50,14
+    CONTROL         "&Automatic Change When Program Next Run",IDC_SAVECHANGE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,31,170,191,10
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,36,121,115,10
+    CONTROL         "Check2",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,41,103,10
+END
+
+IDD_TAB_WEBPAGE DIALOG  0, 0, 258, 205
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "this is webpage",IDC_STATIC_WEBPOS,5,6,246,126
+    CONTROL         "",IDC_WEB_ADS,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,7,142,244,57
+END
+
+IDD_TAB_PROCESSLIST DIALOG  0, 0, 310, 224
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_TAB_PROCESSLIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,5,49,295,149
+    PUSHBUTTON      "&Refresh",IDC_PROCESSLIST_REFRESH,228,203,69,14
+    PUSHBUTTON      "Hide This &Process",IDC_PROCESSPAGE_HIDE,13,18,125,16
+    LTEXT           "this is a adlink",IDC_PROCESSPAGE_ADLINK,150,28,150,8
+END
+
+IDD_TAB_CLEANPRIV DIALOGEX 0, 0, 280, 244
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",IDC_CLEAN_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | WS_BORDER | WS_HSCROLL | WS_TABSTOP,13,94,253,88
+    PUSHBUTTON      "&Clean Now",IDC_CLEAN_CLEANNOW,178,216,88,15
+    CONTROL         "Clean &history after hide window",IDC_CLEAN_CLEANAFTER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,219,143,10
+    LTEXT           "Select All",IDC_CLEAN_SELALL,15,191,41,8
+    LTEXT           "Unsel All",IDC_CLEAN_UNSELALL,77,191,42,8
+    LTEXT           "You can clean history",IDC_CLEANPRIV_TIP,14,14,236,16
+    LTEXT           "Ads_link",IDC_CLEANPRIV_ADS,18,71,255,8
+    CONTROL         "",IDC_CLEAN_ADS,"Static",SS_BLACKFRAME,14,32,253,29
+END
+
+IDD_DIALOG_CLEANPROGRESS DIALOG  0, 0, 223, 78
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Clean Progress"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDC_PROGRESS_CANCEL,87,57,50,14
+    CONTROL         "Progress1",IDC_PROGRESS_PROGRESS,"msctls_progress32",WS_BORDER,9,35,204,14
+    LTEXT           "Static",IDC_PROGRESS_INFO,9,6,204,20
+END
+
+IDD_TAB_HIDEIP DIALOG  0, 0, 305, 290
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Use Proxyserver",IDC_HIDEIP_HIDEIP,70,22,115,18,NOT WS_VISIBLE
+    PUSHBUTTON      "Advanced...",IDC_BUTTON2,239,273,50,14,NOT WS_VISIBLE
+    LTEXT           "Use Proxy",IDC_STATIC,14,17,250,56,NOT WS_VISIBLE
+    LTEXT           "Status....",IDC_STATIC,175,6,95,19,NOT WS_VISIBLE
+    CONTROL         "Progress1",IDC_DOWORK_PROGRESS,"msctls_progress32",NOT WS_VISIBLE | WS_BORDER,2,257,269,14
+    LTEXT           "Proxy Status:",IDC_USE_INFO,4,276,254,8,NOT WS_VISIBLE
+END
+
+IDD_TAB_HIDEIPADVANCED DIALOG  0, 0, 314, 238
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,15,14,246,184
+    PUSHBUTTON      "Use this proxy",IDC_BUTTON1,18,202,63,14
+    PUSHBUTTON      "&Refresh",IDC_BUTTON2,257,17,50,14
+    PUSHBUTTON      "General...",IDC_BUTTON3,248,213,50,14
+END
+
+IDD_TAB_HIDEIP_ADVANCE DIALOG  0, 0, 403, 215
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Hide IP - Advanced:",IDC_HIDEIP_SELSERVER,6,61,391,148
+    CONTROL         "List1",IDC_HIDEIP_IPLIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,17,91,364,67
+    PUSHBUTTON      "&Refresh",IDC_HIDEIP_SEARCHNOW,17,68,82,14
+    PUSHBUTTON      "&Stop Search",IDC_HIDEIP_ADV_STOPSEARCH,107,68,82,14,NOT WS_VISIBLE
+    PUSHBUTTON      "&Use This Proxy",IDC_HIDEIP_USETHISPROXY,27,165,82,14
+    PUSHBUTTON      "&Restore System",IDC_HIDEIP_ADV_RESTOREIP,129,166,82,14
+    LTEXT           "Status:",IDC_HIDEIP_ADV_IPSTATE,11,186,260,8
+    PUSHBUTTON      "&General...",IDC_HIDEIP_BTN_GENERAL,324,188,66,14
+    LTEXT           "this is a adlink",IDC_HIDEIP_ADV_ADLINK,227,68,150,8
+    PUSHBUTTON      "search fail",IDC_HIDEIP_ADV_SEARCHFAIL,289,188,31,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_HIDEIPADV_ADS,"Static",SS_BLACKFRAME,5,8,392,44
+END
+
+IDD_TAB_HIDEIP_GENERAL DIALOG  0, 0, 366, 222
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Hide IP - General",IDC_HIDEIP_STATICHIDEIP,5,59,355,158
+    PUSHBUTTON      "&Hide IP",IDC_HIDEIP_HIDENOW,127,81,91,14
+    PUSHBUTTON      "&Stop Search",IDC_HIDEIP_STOPSEARCH,235,81,91,14,NOT WS_VISIBLE
+    LTEXT           "Status:",IDC_HIDEIP_IPSTATE,23,111,224,8
+    PUSHBUTTON      "&Restore IP",IDC_HIDEIP_RESTOREIP,158,188,91,14,NOT WS_VISIBLE
+    PUSHBUTTON      "&Advanced...",IDC_HIDEIP_ADVANCED,277,191,66,14
+    LTEXT           "Free Software Downloads and Software Reviews",IDC_HIDEIP_ADLINK,22,171,328,8
+    PUSHBUTTON      "Button1",IDC_HIDEIP_SEARCHFAIL,68,198,29,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_HIDEIPGEN_ADS,"Static",SS_BLACKFRAME,6,8,353,47
+END
+
+IDD_TAB_AUTOHIDE DIALOGEX 0, 0, 331, 298
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "List1",IDC_AUTOHIDE_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,10,103,310,172
+    PUSHBUTTON      "&Add...",IDC_AUTOHIDE_ADD,207,280,54,15
+    LTEXT           "ads link ",IDC_AUTOHIDE_ADLINK,9,87,184,8
+    LTEXT           "YOU CAN ADD SOME PROGRAM TO AUTHIDE.",IDC_AUTOHIDE_TIP,5,3,309,24
+    PUSHBUTTON      "&Del",IDC_AUTOHIDE_DEL,266,280,54,15
+    CONTROL         "&Enable Auto Hide Select Program",IDC_AUTOHIDE_ENABLEAH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,283,167,10
+    CONTROL         "",IDC_AUTOHIDE_ADS,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,7,33,315,47
+END
+
+IDD_DIALOG_PASSWORD DIALOG  0, 0, 247, 114
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_PASSWORD_EDIT,83,44,144,12,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDC_PASSWORDDLG_OK,124,93,50,14
+    PUSHBUTTON      "Cancel",IDC_PASSWORDDLG_CANCEL,177,93,50,14
+    LTEXT           "Please input password to show HideDragon:",IDC_PASSWORD_TIP,21,7,214,24
+    LTEXT           "Password:",IDC_PASSWORDDLG_PASSWORD,19,46,57,8
+    LTEXT           "Password is wrong, please re input.",IDC_PASSWORDDLG_WRONGPASSWORD,59,66,181,22,NOT WS_VISIBLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAINDIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 407
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 261
+        HORZGUIDE, 60
+        HORZGUIDE, 120
+        HORZGUIDE, 181
+        HORZGUIDE, 240
+    END
+
+    IDD_DIALOGPASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_DIALOG_CHANGEWNDTITLE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_TAB_CLEANPRIV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+IDI_ICON2               ICON                    "icon3.ico"
+IDI_ICON3               ICON                    "icon2.ico"
+IDI_ICON_NOICON         ICON                    "icon4.ico"
+IDI_ICON_UNKNOWN        ICON                    "ico00001.ico"
+IDI_ICON_DEFAULT        ICON                    "App.ico"
+IDI_ICON_INFORMATION    ICON                    "W95MBX04.ICO"
+ID_DN_ICONA             ICON                    "id_dn_ic.ico"
+ID_DN_ICONI             ICON                    "ico00002.ico"
+ID_UP_ICONA             ICON                    "id_up_ic.ico"
+ID_UP_ICONI             ICON                    "ico00003.ico"
+IDI_ALLWND_HIDETHISWINDOW ICON                    "res\\buttonicon\\hidethiswindow_allwnd.ico"
+IDI_ALLWND_REFRESH      ICON                    "res\\buttonicon\\refresh_allwnd.ico"
+IDI_INFO_OPTION         ICON                    "res\\buttonicon\\info_option.ico"
+IDI_INFO_HIDEICON       ICON                    "res\\buttonicon\\info_hideip.ico"
+IDI_INFO_BKWIZARD       ICON                    "res\\buttonicon\\info_bkwizard.ico"
+IDI_TRAY_HIDEICON       ICON                    "res\\buttonicon\\hidethisicon_iconlist.ico"
+IDI_BK_SHOWITEM         ICON                    "res\\buttonicon\\showicon_bklist.ico"
+IDI_CLEAN_CLEANNOW      ICON                    "res\\buttonicon\\cleannow_clean.ico"
+IDI_HIDEIP_HIDENOW      ICON                    "res\\buttonicon\\hideipnow_hideip.ico"
+IDI_HIDEIP_RESTOREIP    ICON                    "res\\buttonicon\\restoreip_hideip.ico"
+IDI_HIDEIP_SEARCHIP     ICON                    "res\\buttonicon\\searchip_hideip.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "tray menu"
+    BEGIN
+        MENUITEM "Show HideDragon",             IDM_SHOWWINDOW
+        MENUITEM SEPARATOR
+        MENUITEM "&Blog",                       IDM_BLOG
+        MENUITEM SEPARATOR
+        MENUITEM "Commit Suggestion",           IDM_SUGGEST
+        MENUITEM "&Video Tutorial...",          IDM_VIDEOTURORIAL
+        MENUITEM "&About...",                   IDM_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Backgroundin&g",              IDM_SPECBK
+        MENUITEM "&Options",                    IDM_OPTION
+        MENUITEM SEPARATOR
+        MENUITEM "S&how Tip",                   IDM_HIDETIP
+        MENUITEM "Hide &Icon",                  IDM_HIDEICON
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Always On To&p",              IDM_ONTOP, CHECKED
+        MENUITEM "Show Tool Tip",               IDM_HIDETIP
+        MENUITEM SEPARATOR
+        MENUITEM "Hide &Icon",                  IDM_HIDEICON
+        MENUITEM "Hid&e  Process",              IDM_HIDEHDPROCESS
+        MENUITEM SEPARATOR
+        MENUITEM "&Beginner Model",             IDM_NEWCOMMERMODEL, CHECKED
+        MENUITEM "Expand Info Pane&l",          IDM_EXPANDINFOPANEL, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Window List"
+    BEGIN
+        MENUITEM "Reserve Selected",            IDM_RESERVESEL
+        MENUITEM "&Hide Selected",              IDM_HIDESEL
+        MENUITEM SEPARATOR
+        MENUITEM "&Reserve This Window",        IDM_RESERVE
+        MENUITEM "&Auto Reserve This Program Next Run", IDM_AUTORESERVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Property...",                IDM_PROPERTY
+    END
+    POPUP "&Disguise"
+    BEGIN
+        POPUP "Set Transparent of Window"
+        BEGIN
+            MENUITEM "Rest&ore",                    IDM_TRANSPARENT_RESTORE
+            MENUITEM SEPARATOR
+            MENUITEM "Lo&w Transparent",            IDM_TRANSPARENT_LOW
+            MENUITEM "&Middle Low Transparent",     IDM_TRANSPARENT_MIDDLELOW
+            MENUITEM "M&iddle",                     IDM_TRANSPARENT_MIDDLE
+            MENUITEM "Middle &High",                IDM_TRANSPARENT_MIDDLEHIGH
+            MENUITEM "A&bsolute Transparent",       IDM_TRANSPARENT_MOSTHIGH
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Change Window I&con...",      IDM_CHANGEICON
+        MENUITEM "Change Window &Title...",     IDM_CHANGETITLE
+        MENUITEM "Restore Wi&ndow Title and Icon...", IDM_RESTOREICONTITLE
+        MENUITEM SEPARATOR
+        MENUITEM "Auto Change When Next &Run",  IDM_REMEMBER, CHECKED
+    END
+    POPUP "&Backgrouding"
+    BEGIN
+        MENUITEM "&Background Program Now",     IDM_TOBK
+        MENUITEM "Custo&m Backgrounding Hotkey", IDM_BKWNDHOTKEY
+        MENUITEM "&Unregister Hotkey for Backgrounding", IDM_UNREGISTERHK
+        MENUITEM SEPARATOR
+        MENUITEM "&Backgrounding Programs...",  IDM_SPECBK
+    END
+    POPUP "&Tool"
+    BEGIN
+        MENUITEM "&Options...",                 IDM_OPTION
+        MENUITEM SEPARATOR
+        POPUP "&Language"
+        BEGIN
+            MENUITEM "立即获取更多语言包(&A)...",            IDM_ACQUIRELANGUAGE
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        POPUP "Quick Start"
+        BEGIN
+            MENUITEM "快速隐藏窗口(&Q)...",               IDM_XPQH
+            MENUITEM "指定程序到后台(&K)...",              IDM_XPBK
+            MENUITEM "体验窗口伪装...",                   IDM_XPDISGUISE
+            MENUITEM "XP &Clean History...",        IDM_HELP_CLEAN
+            MENUITEM "XP Hide &IP...",              IDM_HELP_HIDEIP
+        END
+        MENUITEM "&Video Tutorial...",          IDM_VIDEOTURORIAL
+        MENUITEM "&Manual...",                  IDM_USERMANUAL
+        MENUITEM SEPARATOR
+        MENUITEM "Buy &Online...",              IDM_BUYONLINE
+        MENUITEM "&Enter Registration...",      IDM_REGISTER
+        MENUITEM "Feedback and Sup&port...",    IDM_SUGGEST
+        MENUITEM SEPARATOR
+        MENUITEM "&Blog...",                    IDM_BLOG
+        MENUITEM "&About...",                   IDM_ABOUT
+    END
+END
+
+IDR_MENU3 MENU 
+BEGIN
+    POPUP "windowlistshortcutmenu"
+    BEGIN
+        MENUITEM "&Background Program Now",     IDM_TOBK
+        MENUITEM "Custo&m Backgrounding Hotkey", IDM_BKWNDHOTKEY
+        MENUITEM "&Unregister Hotkey for Backgrounding", IDM_UNREGISTERHK
+        MENUITEM SEPARATOR
+        MENUITEM "Bring t&o Top",               IDM_SETTOTOP
+        MENUITEM SEPARATOR
+        MENUITEM "保留此窗口(&R)",                   IDM_RESERVE
+        MENUITEM "在下次运行时自动保留此程序(&A)",           IDM_AUTORESERVE
+        MENUITEM SEPARATOR
+        MENUITEM "Add to Auto Hide List",       IDM_ADDAUTOHIDE
+        MENUITEM SEPARATOR
+        MENUITEM "Change Window I&con...",      IDM_CHANGEICON
+        MENUITEM "Change Window Title...",      IDM_CHANGETITLE
+        MENUITEM "Restore Wi&ndow Title and Icon...", IDM_RESTOREICONTITLE
+        MENUITEM SEPARATOR
+        POPUP "Set Transparent of Window"
+        BEGIN
+            MENUITEM "Rest&ore",                    IDM_TRANSPARENT_RESTORE
+            MENUITEM SEPARATOR
+            MENUITEM "Lo&w Transparent",            IDM_TRANSPARENT_LOW
+            MENUITEM "&Middle Low Transparent",     IDM_TRANSPARENT_MIDDLELOW
+            MENUITEM "M&iddle",                     IDM_TRANSPARENT_MIDDLE
+            MENUITEM "Middle &High",                IDM_TRANSPARENT_MIDDLEHIGH
+            MENUITEM "A&bsolute Transparent",       IDM_TRANSPARENT_MOSTHIGH
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Property...",                IDM_PROPERTY
+    END
+END
+
+IDR_MENU_JOBTIP MENU 
+BEGIN
+    POPUP "JobTip"
+    BEGIN
+        MENUITEM "使用此功能需要选中窗口列表",               IDM_JOB_TIP1
+        MENUITEM "或在窗口列表条目上点击右键",               IDM_JOB_TIP2
+    END
+END
+
+IDR_MENU_BKITEM MENU 
+BEGIN
+    POPUP "ItemRMenu"
+    BEGIN
+        MENUITEM "S&how This Item",             IDM_BKITEM_SHOW
+    END
+END
+
+IDR_MENU_PROCESSLIST MENU 
+BEGIN
+    POPUP "ProcessList"
+    BEGIN
+        MENUITEM "&Hide Process",               IDM_PROCESSLIST_HIDE
+        MENUITEM "&End Process",                IDM_PROCESSLIST_END
+    END
+END
+
+IDR_MENU_AUTOHIDE MENU 
+BEGIN
+    POPUP "AutoHideMenu"
+    BEGIN
+        MENUITEM "&Add Auto Hide Program...",   IDM_AUTOHIDE_ADD
+        MENUITEM "&Del Auto Hide Program",      IDM_AUTOHIDE_DEL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_HEADER              BITMAP                  "bitmap2.bmp"
+IDB_WATERMARK           BITMAP                  "bmp00001.bmp"
+IDB_TITLEBAR            BITMAP                  "TitleBar.bmp"
+IDB_MINIMIZE            BITMAP                  "MiniButton.bmp"
+IDB_MINIPRESS           BITMAP                  "MiniPress.bmp"
+IDB_BOTTOM              BITMAP                  "bottom.bmp"
+IDB_LEFTSIDE            BITMAP                  "Side_left.bmp"
+IDB_RIGHTSIDE           BITMAP                  "Side_right.bmp"
+IDB_TAB_ALLWND          BITMAP                  "res\\tabbmp\\tab_allwnd.bmp"
+IDB_TAB_ADSUNION        BITMAP                  "res\\tabbmp\\tab_adsunion.bmp"
+IDB_TAB_TRAYICON        BITMAP                  "res\\tabbmp\\tab_trayicon.bmp"
+IDB_TAB_CLEAN           BITMAP                  "res\\tabbmp\\tab_clean.bmp"
+IDB_TAB_HIDEIP          BITMAP                  "res\\tabbmp\\tab_hideip.bmp"
+IDB_TAB_AUTOHIDE        BITMAP                  "res\\tabbmp\\tab_autohide.bmp"
+IDB_TAB_BKLIST          BITMAP                  "res\\tabbmp\\tab_bklist.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,6,0,0
+ PRODUCTVERSION 3,6,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004b0"
+        BEGIN
+            VALUE "Comments", "隐身专家"
+            VALUE "CompanyName", "http://www.store3000.com/hidedragon"
+            VALUE "FileDescription", "隐身专家是一款快速隐藏窗口软件，保护您的屏幕隐私。"
+            VALUE "FileVersion", "3.6"
+            VALUE "InternalName", "隐身专家"
+            VALUE "LegalCopyright", "Copyright (C) 2003.4.6 - 2011.3.23 董大鹏"
+            VALUE "LegalTrademarks", "隐身专家"
+            VALUE "OriginalFilename", "HideDragon.exe"
+            VALUE "ProductName", "隐身专家"
+            VALUE "ProductVersion", "3.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING1             "D"
+    IDS_STRING2             "E"
+    IDS_STRING3             "G"
+    IDS_STRING4             "H"
+    IDS_STRING5             "I"
+    IDS_STRING6             "J"
+    IDS_STRING7             "K"
+    IDS_STRING8             "L"
+    IDS_STRING9             "M"
+    IDS_STRING10            "N"
+    IDS_STRING11            "P"
+    IDS_STRING12            "Q"
+    IDS_STRING13            "R"
+    IDS_STRING14            "T"
+    IDS_STRING15            "U"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING16            "W"
+    IDS_FUNCDTIONKEY1       "F2"
+    IDS_FUNCDTIONKEY2       "F3"
+    IDS_FUNCDTIONKEY3       "F4"
+    IDS_FUNCDTIONKEY4       "F5"
+    IDS_FUNCDTIONKEY5       "F6"
+    IDS_FUNCDTIONKEY6       "F7"
+    IDS_FUNCDTIONKEY7       "F8"
+    IDS_FUNCDTIONKEY8       "F9"
+    IDS_FUNCDTIONKEY9       "F10"
+    IDS_FUNCDTIONKEY10      "F11"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TAB_ALLWND DIALOG  0, 0, 355, 189
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Refresh",IDC_TAB_BTN_REFRESH,279,171,71,13,BS_NOTIFY
+    CONTROL         "List1",IDC_TAB_LIST_ALLWND,"SysListView32",LVS_REPORT | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,0,33,355,71
+    CONTROL         "Selected Item To &Hide",IDC_TAB_CHECK_SELHIDE,"Button",BS_AUTOCHECKBOX | BS_NOTIFY | WS_TABSTOP,3,170,254,10
+    PUSHBUTTON      "&Hide this window",IDC_WNDLIST_HIDE,9,7,125,16,BS_CENTER
+    LTEXT           "adslink",IDC_WNDLIST_ADS,167,16,167,8
+    CONTROL         "",IDC_STATIC_ADS1,"Static",SS_BLACKFRAME,3,113,340,39
+END
+
+IDD_TAB_TRAYICON DIALOG  0, 0, 342, 181
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_TAB_TRAYLIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,0,83,338,70
+    DEFPUSHBUTTON   "&Refresh",IDC_TAB_BTN_REFRESHLIST,259,158,71,13
+    PUSHBUTTON      "Hide this tray &icon",IDC_TRAYPAGE_HIDETRAY,16,55,125,16
+    LTEXT           "Clean and stop virus. Freeware!",IDC_TABPAGE_ADLINK,171,60,150,8
+    CONTROL         "",IDC_TRAY_ADS,"Static",SS_BLACKFRAME,4,8,332,42
+END
+
+IDD_PANEL_ALLINFO DIALOG  0, 0, 421, 87
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Infomation Panel:",IDC_STATIC_INFO_GROUP,6,1,408,79
+    PUSHBUTTON      "H&ide Icon",IDC_INFO_HIDEICON,338,19,71,13,NOT WS_TABSTOP
+    CTEXT           "right + left",IDC_INFO_MOUSE,111,13,64,9,SS_SUNKEN
+    ICON            IDI_ICON1,IDC_STATIC_INFO_ICON,8,10,20,20
+    CONTROL         "Always on the to&p",IDC_CHECK_INFO_ONTOP,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,182,15,84,10
+    PUSHBUTTON      "&Update Now...",IDC_INFO_UPDATE,341,55,65,13,NOT WS_VISIBLE
+    LTEXT           "已检测到更新版本，推荐你",IDC_STATIC_INFO_UPDATE,226,56,103,8,NOT WS_VISIBLE
+    CONTROL         "HotKey1",IDC_HOTKEY_INFO_HA,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,111,24,64,11
+    CONTROL         "HotKey2",IDC_HOTKEY_INFO_SS,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,111,37,64,11
+    LTEXT           "Mouse:",IDC_STATIC_INFO_MOUSE,36,14,70,8
+    LTEXT           "Hide Windows:",IDC_STATIC_INFO_HIDEALLWINDOW,36,26,72,8
+    LTEXT           "Show HideDragon:",IDC_STATIC_INFO_SHOWHIDEDRAGON,36,38,72,8
+    PUSHBUTTON      "&Option",IDC_INFO_OPTION,265,19,71,13,NOT WS_TABSTOP
+    PUSHBUTTON      "&Backgrounding Program...",IDC_INFO_BKWIZARD,265,33,144,13,NOT WS_TABSTOP
+END
+
+IDD_TAB_BKLIST DIALOG  0, 0, 392, 176
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_TAB_BKLIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,12,68,300,72
+    PUSHBUTTON      "&Show",IDC_TAB_SHOWBK,13,47,125,16
+    CONTROL         "Auto-Hide the popup window of the hidde&n item",IDC_TAB_CHECK_AUTOHIDE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,146,215,10
+    LTEXT           "This is a adlink",IDC_BK_ADLINK,177,54,150,8
+    CONTROL         "",IDC_BK_ADS,"Static",SS_BLACKFRAME,12,8,349,36
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_TABTRAYLIST MENU 
+BEGIN
+    POPUP "TrayTab"
+    BEGIN
+        MENUITEM "Background &Icon Now",        IDM_TAB_TRAY_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "Add to Auto Hide &List",      IDM_TAB_TRAY_ADDAUTOHIDE
+    END
+END
+
+IDR_MENU_BKTAB MENU 
+BEGIN
+    POPUP "BackgroundTab"
+    BEGIN
+        MENUITEM "Background Wizard",           IDM_BKTAB_BKWIZARD
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "hidedragon.exe.manifest"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

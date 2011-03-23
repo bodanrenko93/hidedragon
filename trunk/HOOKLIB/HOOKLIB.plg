@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HOOKLIB - Win32 Debug_NP--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"HOOKLIB___Win32_Debug_NP/HOOKLIB.res" /d "_DEBUG" "D:\my program\T2\HOOKLIB\HOOKLIB.RC"" 
+Creating temporary file "C:\Users\u1\AppData\Local\Temp\RSP4223.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HOOKLIB_EXPORTS" /D "UNICODE" /D "_UNICODE" /FR"HOOKLIB___Win32_Debug_NP/" /Fp"HOOKLIB___Win32_Debug_NP/HOOKLIB.pch" /YX /Fo"HOOKLIB___Win32_Debug_NP/" /Fd"HOOKLIB___Win32_Debug_NP/" /FD /GZ /c 
+"D:\my program\T2\HOOKLIB\Driver.cpp"
+"D:\my program\T2\HOOKLIB\HookLib.cpp"
+"D:\my program\T2\HOOKLIB\Volume\VolumeOutMaster.cpp"
+"D:\my program\T2\HOOKLIB\Volume\VolumeOutWave.cpp"
+]
+Creating command line "cl.exe @C:\Users\u1\AppData\Local\Temp\RSP4223.tmp" 
+Creating temporary file "C:\Users\u1\AppData\Local\Temp\RSP4224.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib winmm.lib shlwapi.lib /nologo /dll /incremental:yes /pdb:"../Output/debug/HOOKLIB.pdb" /debug /machine:I386 /out:"../Output/debug/HOOKLIB.dll" /implib:"../Output/debug/HOOKLIB.lib" /pdbtype:sept 
+".\HOOKLIB___Win32_Debug_NP\Driver.obj"
+".\HOOKLIB___Win32_Debug_NP\HookLib.obj"
+".\HOOKLIB___Win32_Debug_NP\VolumeOutMaster.obj"
+".\HOOKLIB___Win32_Debug_NP\VolumeOutWave.obj"
+".\HOOKLIB___Win32_Debug_NP\HOOKLIB.res"
+]
+Creating command line "link.exe @C:\Users\u1\AppData\Local\Temp\RSP4224.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Driver.cpp
+HookLib.cpp
+VolumeOutMaster.cpp
+VolumeOutWave.cpp
+Linking...
+   Creating library ../Output/debug/HOOKLIB.lib and object ../Output/debug/HOOKLIB.exp
+
+
+
+<h3>Results</h3>
+HOOKLIB.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

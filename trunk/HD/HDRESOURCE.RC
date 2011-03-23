@@ -1,0 +1,628 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDIALOG DIALOGEX 0, 0, 347, 279
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_CONTROLPARENT
+CAPTION "隐身专家 2.5"
+MENU IDR_MENU2
+FONT 9, "Tahoma", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "刷新(&E)",IDC_REFRESH,294,142,46,13
+    PUSHBUTTON      "指定程序到后台运行(&W)...",IDC_BKWIZARD,251,19,93,13
+    PUSHBUTTON      "隐藏图标(&I)",IDC_HIDEICON,297,5,46,13
+    PUSHBUTTON      "选项(&O)",IDC_OPTION,251,5,46,13
+    LTEXT           "鼠标:",IDC_STATIC,27,8,25,8
+    LTEXT           "right + left",IDC_MOUSE,80,5,46,11,SS_SUNKEN
+    LTEXT           "隐藏任务栏窗口:　",IDC_STATIC,27,20,53,8
+    LTEXT           "Ctrl + H",IDC_KEYBOARD,80,18,46,11,0,WS_EX_STATICEDGE
+    LTEXT           "显示隐身专家:",IDC_STATIC,143,20,47,8
+    LTEXT           "Ctrl + W",IDC_CALLWINDOW,190,18,46,11,0,
+                    WS_EX_STATICEDGE
+    ICON            IDI_ICON1,IDC_STATIC,4,7,20,20
+    GROUPBOX        "窗口列表:",IDC_STATIC_FOREGROUND,1,33,343,124
+    PUSHBUTTON      "清除所有(&C)",IDC_RESTORE,247,142,46,13
+    CONTROL         "List2",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,
+                    10,57,330,84
+    CONTROL         "在下面选中不想隐藏的窗口",IDC_STATIC_TIP1,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,11,45,92,11
+    CONTROL         "置于最前端(&T)",IDC_CHECK_ONTOP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,144,6,61,10
+    CONTROL         112,IDC_ADS,"Static",SS_BITMAP | SS_NOTIFY | NOT 
+                    WS_VISIBLE,33,85,182,43,WS_EX_STATICEDGE
+    PUSHBUTTON      "立即更新(&U)",IDC_UPDATE,289,39,46,13,NOT WS_VISIBLE
+    LTEXT           "已检测到更新版本，新版本提供更强大的功能，推荐你",
+                    IDC_STATIC_UPDATE,120,41,166,8,NOT WS_VISIBLE
+    CONTROL         "",IDC_SHOCKWAVEFLASH1,
+                    "{D27CDB6E-AE6D-11CF-96B8-444553540000}",WS_TABSTOP,1,
+                    248,343,29
+    CONTROL         "List1",IDC_LIST_BK,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,10,172,330,49
+    GROUPBOX        "后台运行程序列表",IDC_STATIC_BKGROUP,1,160,343,76
+    PUSHBUTTON      "显示被隐藏的程序(&S)",IDC_SHOWBK,242,222,98,12
+    CONTROL         "自动隐藏后弹出的窗口(&L)",IDC_CHECK_AUTOHIDE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,223,94,10
+END
+
+IDD_DIALOGABOUT DIALOG DISCARDABLE  0, 0, 203, 144
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Hide Dragon..."
+FONT 9, "Tahoma"
+BEGIN
+    LTEXT           "隐身专家 2.5",IDC_STATICNAME,35,7,44,8
+    ICON            IDI_ICON1,IDC_STAIICICON,8,7,20,20
+    LTEXT           "Copyright (C) 2003.4 - 2005.8 董大鹏",
+                    IDC_STATICCOPYRIGHT,35,17,137,9
+    LTEXT           "保留所有权利。",IDC_STATICRESERVED,35,28,48,10
+    LTEXT           "email:dongdapeng8@sohu.com",IDC_STATICEMAIL,10,44,99,8,
+                    SS_NOTIFY
+    LTEXT           "http://kinghome.51.net",IDC_STATICHTTP,10,54,77,8,
+                    SS_NOTIFY
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,9,83,187,1
+    EDITTEXT        IDC_EDITCREDIT,9,87,187,50,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL | NOT WS_TABSTOP
+    LTEXT           "QQ:",IDC_STATIC,10,66,14,8
+    EDITTEXT        IDC_EDIT_QQ,28,66,71,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+END
+
+IDD_DIALOGREADME DIALOG DISCARDABLE  0, 0, 238, 166
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ReadMe"
+FONT 8, "宋体"
+BEGIN
+    CONTROL         "",IDC_RICHEDIT2,"RichEdit20A",WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP | 0x1844,7,7,224,159
+END
+
+IDD_DIALOGHOTKEY DIALOG DISCARDABLE  0, 0, 210, 175
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HotKey setting"
+FONT 9, "Tahoma"
+BEGIN
+    COMBOBOX        IDC_COMBOWINDOWS,46,61,38,89,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_NOINTEGRALHEIGHT | 
+                    CBS_DISABLENOSCROLL | CBS_UPPERCASE | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBOSELF,46,125,38,82,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_NOINTEGRALHEIGHT | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "隐藏任务栏所有窗口的热键:",IDC_STATIC,6,46,88,8
+    LTEXT           "Ctrl + ",IDC_STATIC,20,127,20,8
+    LTEXT           "Ctrl + ",IDC_STATIC,20,63,20,8
+    LTEXT           "显示‘隐身专家’主窗口的热键:",IDC_STATIC,6,107,91,10
+    CONTROL         "使用鼠标左右键(&U)",IDC_CHECKMOUSE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,21,72,10
+    LTEXT           "是否使用鼠标左右键:",IDC_STATIC,6,8,65,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,74,12,115,1
+    CONTROL         "使用功能键:",IDC_CHECK_FUNCTIONKEY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,80,53,10
+    COMBOBOX        IDC_COMBO_FUNCTIONKEY,76,79,48,76,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,94,50,95,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,98,111,91,1
+END
+
+IDD_DIALOGOTHER DIALOG DISCARDABLE  0, 0, 215, 176
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Other setting"
+FONT 9, "Tahoma"
+BEGIN
+    EDITTEXT        IDC_EDITINTERVAL,76,143,35,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,111,143,9,
+                    14
+    LTEXT           "刷新间隔(1~9秒):",IDC_STATIC,15,145,59,8
+    CONTROL         "结束所有被隐藏的窗口(&K)",IDC_RADIOKILL,"Button",
+                    BS_AUTORADIOBUTTON,15,92,93,10
+    CONTROL         "显示所有被隐藏的窗口(&S)",IDC_RADIOSHOW,"Button",
+                    BS_AUTORADIOBUTTON,15,104,90,10
+    CONTROL         "手动刷新(&M)",IDC_CHECKREFRESH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,129,61,13
+    CONTROL         "隐藏窗口后最小化声音(&D)",IDC_CHECK_DISABLESOUND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,16,95,10
+    CONTROL         "系统启动后自动运行(&R)",IDC_CHECK_AUTORUN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,29,87,10
+    CONTROL         "将程序快捷方式加入快速启动区(&Q)",IDC_CHECK_ADDQL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,65,123,10
+    LTEXT           "系统",IDC_STATIC,7,5,15,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,25,9,156,1
+    LTEXT           "退出时被隐藏的窗口:",IDC_STATIC,7,79,65,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,73,83,108,1
+    LTEXT           "刷新选项",IDC_STATIC,7,119,28,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,37,123,144,1
+    CONTROL         "不显示主窗口(&N)",IDC_CHECK_HIDEMAINWND,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,26,41,67,10
+    CONTROL         "自动隐藏托盘图标(&I)",IDC_CHECK_HIDEICON,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,26,52,79,10
+END
+
+IDD_DIALOGHISTORY DIALOG DISCARDABLE  0, 0, 181, 134
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Version History"
+FONT 11, "宋体"
+BEGIN
+    CONTROL         "",IDC_RICHEDITHIST,"RichEdit20A",WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP | 0x3844,7,7,166,122
+END
+
+IDD_DIALOG_REGISTER DIALOG DISCARDABLE  0, 0, 281, 218
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "注册"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "欢迎注册!",IDC_STATIC,132,7,39,8
+    LTEXT           "注册号：",IDC_STATIC,25,169,33,8
+    EDITTEXT        IDC_EDIT_RC1,69,167,22,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "注册(&R)",IDC_COMPLETEREG,155,200,50,14
+    PUSHBUTTON      "取消(&C)",IDCANCEL,225,200,50,14
+    LTEXT           "原始码：",IDC_STATIC,25,151,33,8
+    EDITTEXT        IDC_EDIT_MIDDLECODE,68,149,193,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_RC2,124,167,22,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RC3,185,167,22,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RC4,237,167,22,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RC5,86,195,58,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "-",IDC_STATIC,105,168,8,8
+    LTEXT           "-",IDC_STATIC,165,170,8,8
+    LTEXT           "-",IDC_STATIC,221,169,8,8
+    LTEXT           "-",IDC_STATIC,70,196,8,8,NOT WS_VISIBLE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,21,185,254,1
+    LTEXT           "注册后您可以.....",IDC_STATIC,23,25,69,8
+    LTEXT           "获得注册码，这样在试用期过后您可以继续使用",IDC_STATIC,
+                    40,40,169,8
+    LTEXT           "获得一年的免费升级",IDC_STATIC,40,54,73,8
+    LTEXT           "获得email和QQ的技术支持",IDC_STATIC,40,67,93,8
+    LTEXT           "您的注册会使我们不断的改进和完善隐身专家，谢谢您的支持!",
+                    IDC_STATIC,23,82,221,8
+    LTEXT           "关于注册的详细信息请访问->",IDC_STATIC,23,106,105,8
+    PUSHBUTTON      "如何注册",IDC_HOWREG,135,103,73,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,23,133,236,1
+    LTEXT           "http://kinghome.51.net",IDC_STATIC,24,125,89,8
+END
+
+IDD_DIALOGPASSWORD DIALOG DISCARDABLE  0, 0, 231, 186
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password Protect"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "启用密码保护(&P)",IDC_CHECK_USEPASSWORD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,98,76,10
+    EDITTEXT        IDC_EDIT_PASSWORD,61,114,121,12,ES_PASSWORD | 
+                    ES_WANTRETURN
+    EDITTEXT        IDC_EDIT_VALIDATE,61,131,121,12,ES_PASSWORD | 
+                    ES_WANTRETURN
+    LTEXT           "密码:",IDC_STATIC,22,118,21,8
+    LTEXT           "重新输入:",IDC_STATIC,22,134,37,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,87,102,124,1
+    LTEXT           "使用密码保护后需要在显示被隐藏的窗口时输入密码 ,就是在窗口隐藏后,如果再进行显示操作,会提示用户输入密码,输入错误不能够重新显示,以防止当用户离开电脑后别人看到隐藏的窗口.",
+                    IDC_STATIC,11,12,200,31
+    LTEXT           "此密码可以任意更改,在更改时不需要输入用户上次设定的密码,主要是考虑用户会遗忘密码.",
+                    IDC_STATIC,11,59,200,24
+END
+
+IDD_WIZARD_SELWINDOWANDICON DIALOG DISCARDABLE  0, 0, 299, 178
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "指定后台运程序向导：第一步:"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST_ICONANDWINDOW,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,13,
+                    71,270,91
+    LTEXT           "在下面选中您要转到后台运行的程序的托盘图标，某些条目可能只有托盘图标，所以您可以指定只指定托盘图标到后台运行，这样会隐藏相应的托盘图标。被指定到后台运行的程序再弹出的新窗口将不会被显示。比如在用FLASHGET下载时，可以使用此向导将其转到后台运行。如果想要再显示在后台运行的程序，可以在主窗口的“后台程序列表”里选取要显示程序显示。",
+                    IDC_STATIC_SOMETIP,13,13,269,44
+END
+
+IDD_WIZARD_FINISH DIALOG DISCARDABLE  0, 0, 278, 154
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "指定后台运行程序向导:完成"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST_VALIDATE,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,14,41,257,87
+    LTEXT           "下面是您要转到后台运行的程序，如果确认，完成向导后将指定程序转到后台运行，您可以在主窗口的“后台运行程序列表”里选取要显示程序。",
+                    IDC_STATIC_SOMETIP,14,7,257,30
+END
+
+IDD_WIZARD_BEGINBK DIALOG DISCARDABLE  0, 0, 280, 160
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "后台运行程序指定向导"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "欢迎使用隐身专家后台运行程序指定向导：",IDC_STATIC,120,
+                    16,128,15
+    LTEXT           "此向导可以帮助您：",IDC_STATIC,122,44,114,10
+    LTEXT           "指定托盘图标到后台运行，并且同托盘图标相的进程的弹出窗口将不会被显示。",
+                    IDC_STATIC,136,68,122,27
+    LTEXT           "指定桌面上的窗口到后台运行，连同相同进程的托盘图标和后面的弹出窗口将不会被显示。",
+                    IDC_STATIC,136,103,131,28
+END
+
+IDD_DIALOGBK DIALOG DISCARDABLE  0, 0, 228, 192
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Backgraound option..."
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "自动隐藏后台运行程序弹出的窗口(&U)",
+                    IDC_CHECK_AUTOHIDEBK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,20,26,166,10
+    CONTROL         "按下鼠标左右键将鼠标下的窗口转到后台运行(&D)",
+                    IDC_CHECK_DOUBLECLICK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,20,44,188,10
+    LTEXT           "后台运行选项",IDC_STATIC,8,11,49,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,61,14,160,1
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_MAINDIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 344
+        BOTTOMMARGIN, 277
+    END
+
+    IDD_DIALOGABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_DIALOGREADME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 153
+    END
+
+    IDD_DIALOGHOTKEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_DIALOGOTHER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_DIALOGHISTORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 129
+    END
+
+    IDD_DIALOG_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_DIALOGPASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_WIZARD_SELWINDOWANDICON, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_WIZARD_FINISH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_WIZARD_BEGINBK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 153
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+IDI_ICON2               ICON    DISCARDABLE     "icon3.ico"
+IDI_ICON3               ICON    DISCARDABLE     "icon2.ico"
+IDI_ICON_NOICON         ICON    DISCARDABLE     "icon4.ico"
+IDI_ICON_UNKNOWN        ICON    DISCARDABLE     "ico00001.ico"
+IDI_ICON_DEFAULT        ICON    DISCARDABLE     "App.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,5,0,0
+ PRODUCTVERSION 2,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "未经作者许可不得用于商业用途.\0"
+            VALUE "CompanyName", "http://kinghome.51.net\0"
+            VALUE "FileDescription", "隐身专家\0"
+            VALUE "FileVersion", "2.5\0"
+            VALUE "InternalName", "HideDragon\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003.4.6 - 2005.8 董大鹏\0"
+            VALUE "LegalTrademarks", "隐身专家\0"
+            VALUE "OriginalFilename", "HideDragon.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "隐身专家\0"
+            VALUE "ProductVersion", "2.5\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "tray menu"
+    BEGIN
+        MENUITEM "显示主窗口(&W)",              IDM_SHOWWINDOW
+        MENUITEM "置于最前端(O)",               IDM_TRAYONTOP, CHECKED
+        MENUITEM "选项(&T)...",                 IDM_OPTION
+        MENUITEM "隐藏图标(&I)",                IDM_HIDEICON
+        MENUITEM "退出(&X)",                    IDM_EXIT
+        MENUITEM SEPARATOR
+        MENUITEM "在线更新(&U)",                IDM_UPDATE
+        MENUITEM "提交建议(&S)...",             IDM_SUGGEST
+        MENUITEM SEPARATOR
+        MENUITEM "使用手册(&M)...",             IDM_USERMANUAL
+        MENUITEM "关于(&A)...",                 IDM_ABOUT
+        MENUITEM "注册(&R)...",                 IDM_REGISTER
+    END
+END
+
+IDR_MENU2 MENU DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "置于最前端(&O)",              IDM_ONTOP, CHECKED
+        MENUITEM "隐藏图标(&I)",                IDM_HIDEICON
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    IDM_EXIT
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM "选项(&O)...",                 IDM_OPTION
+        MENUITEM SEPARATOR
+        MENUITEM "在线更新(&U)...",             IDM_UPDATE
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "使用手册(&U)...",             IDM_USERMANUAL
+        MENUITEM "提交建议(&S)...",             IDM_SUGGEST
+        MENUITEM "注册(&R)...",                 IDM_REGISTER
+        MENUITEM SEPARATOR
+        MENUITEM "关于(&A)...",                 IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOGHOTKEY DLGINIT
+BEGIN
+    IDC_COMBOWINDOWS, 0x403, 1, 0
+"\000" 
+    IDC_COMBOSELF, 0x403, 1, 0
+"\000" 
+    0
+END
+
+IDD_MAINDIALOG DLGINIT
+BEGIN
+    IDC_SHOCKWAVEFLASH1, 0x376, 336, 0
+0x0000, 0x0000, 0x5567, 0x5566, 0x0300, 0x0000, 0x3e03, 0x0000, 0x0545, 
+0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0044, 0x0000, 0x0068, 
+0x0074, 0x0074, 0x0070, 0x003a, 0x002f, 0x002f, 0x006b, 0x0069, 0x006e, 
+0x0067, 0x0068, 0x006f, 0x006d, 0x0065, 0x002e, 0x0035, 0x0031, 0x002e, 
+0x006e, 0x0065, 0x0074, 0x002f, 0x0063, 0x006e, 0x002f, 0x0061, 0x0064, 
+0x0073, 0x002e, 0x0073, 0x0077, 0x0066, 0x0000, 0x0008, 0x0044, 0x0000, 
+0x0068, 0x0074, 0x0074, 0x0070, 0x003a, 0x002f, 0x002f, 0x006b, 0x0069, 
+0x006e, 0x0067, 0x0068, 0x006f, 0x006d, 0x0065, 0x002e, 0x0035, 0x0031, 
+0x002e, 0x006e, 0x0065, 0x0074, 0x002f, 0x0063, 0x006e, 0x002f, 0x0061, 
+0x0064, 0x0073, 0x002e, 0x0073, 0x0077, 0x0066, 0x0000, 0x0008, 0x000e, 
+0x0000, 0x0057, 0x0069, 0x006e, 0x0064, 0x006f, 0x0077, 0x0000, 0x000b, 
+0xffff, 0x000b, 0xffff, 0x0008, 0x000a, 0x0000, 0x0048, 0x0069, 0x0067, 
+0x0068, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x000b, 0x0000, 0x0008, 
+0x0002, 0x0000, 0x0000, 0x0008, 0x000e, 0x0000, 0x0061, 0x006c, 0x0077, 
+0x0061, 0x0079, 0x0073, 0x0000, 0x0008, 0x0010, 0x0000, 0x0053, 0x0068, 
+0x006f, 0x0077, 0x0041, 0x006c, 0x006c, 0x0000, 0x000b, 0x0000, 0x000b, 
+0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 
+0x0008, 0x0002, 0x0000, 0x0000, 0x000d, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x000b, 0x0001, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  MOVEABLE PURE   "bitmap1.bmp"
+IDB_HEADER              BITMAP  DISCARDABLE     "bitmap2.bmp"
+IDB_WATERMARK           BITMAP  DISCARDABLE     "bmp00001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING1             "D"
+    IDS_STRING2             "E"
+    IDS_STRING3             "G"
+    IDS_STRING4             "H"
+    IDS_STRING5             "I"
+    IDS_STRING6             "J"
+    IDS_STRING7             "K"
+    IDS_STRING8             "L"
+    IDS_STRING9             "M"
+    IDS_STRING10            "N"
+    IDS_STRING11            "P"
+    IDS_STRING12            "Q"
+    IDS_STRING13            "R"
+    IDS_STRING14            "T"
+    IDS_STRING15            "U"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING16            "W"
+    IDS_FUNCDTIONKEY1       "F2"
+    IDS_FUNCDTIONKEY2       "F3"
+    IDS_FUNCDTIONKEY3       "F4"
+    IDS_FUNCDTIONKEY4       "F5"
+    IDS_FUNCDTIONKEY5       "F6"
+    IDS_FUNCDTIONKEY6       "F7"
+    IDS_FUNCDTIONKEY7       "F8"
+    IDS_FUNCDTIONKEY8       "F9"
+    IDS_FUNCDTIONKEY9       "F10"
+    IDS_FUNCDTIONKEY10      "F11"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

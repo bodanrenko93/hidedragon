@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\KeyGeneration.Application = KeyGeneration Application
+HKEY_CLASSES_ROOT\KeyGeneration.Application\CLSID = {C460231D-EBA5-4316-BD60-4B3F59C59926}
+
+HKEY_CLASSES_ROOT\CLSID\{C460231D-EBA5-4316-BD60-4B3F59C59926} = KeyGeneration Application
+HKEY_CLASSES_ROOT\CLSID\{C460231D-EBA5-4316-BD60-4B3F59C59926}\ProgId = KeyGeneration.Application
+HKEY_CLASSES_ROOT\CLSID\{C460231D-EBA5-4316-BD60-4B3F59C59926}\LocalServer32 = KEYGENERATION.EXE

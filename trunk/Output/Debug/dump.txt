@@ -1,0 +1,51 @@
+
+
+[Resources Allocations]
+Index	Type	Allocating Function	Thread ID	Fiber Address	File	Module	Handle	Class	Type
+468	Res: 	CreateInfoPanel	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 6324	E:\My Program\T2\Output\debug\HideDragon.exe	0x004c0b94	User32	DestroyWindow
+518	Res: 	ShowAllWndPage	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 5729	E:\My Program\T2\Output\debug\HideDragon.exe	0x00510aec	User32	DestroyWindow
+615	Res: 	ShowTrayPage	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 5764	E:\My Program\T2\Output\debug\HideDragon.exe	0x007b0b76	User32	DestroyWindow
+681	Res: 	ShowBKPage	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 5789	E:\My Program\T2\Output\debug\HideDragon.exe	0x005f0b20	User32	DestroyWindow
+792	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 929	E:\My Program\T2\Output\debug\HideDragon.exe	0x00d6066d	User32	UnhookWindowsHookEx
+804	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 995	E:\My Program\T2\Output\debug\HideDragon.exe	0x0000c01b	Kernel32	GlobalDeleteAtom
+805	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 1005	E:\My Program\T2\Output\debug\HideDragon.exe	0x0000c021	Kernel32	GlobalDeleteAtom
+1657	Res: 	TrayPageProc	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 5994	E:\My Program\T2\Output\debug\HideDragon.exe	0x01c20423	User32	DestroyMenu
+1783	Res: 	TrayPageProc	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 5994	E:\My Program\T2\Output\debug\HideDragon.exe	0x01900553	User32	DestroyMenu
+1787	Res: 	TrayPageProc	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 5994	E:\My Program\T2\Output\debug\HideDragon.exe	0x00f805d7	User32	DestroyMenu
+2789	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x01520567	User32	DestroyMenu
+3081	Res: 	BKPageProc	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 6280	E:\My Program\T2\Output\debug\HideDragon.exe	0x373301a7	User32	DestroyMenu
+3083	Res: 	BKPageProc	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 6280	E:\My Program\T2\Output\debug\HideDragon.exe	0x1ffc013d	User32	DestroyMenu
+4119	Res: 	TrayPageProc	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 5994	E:\My Program\T2\Output\debug\HideDragon.exe	0x013c0661	User32	DestroyMenu
+4127	Res: 	TrayPageProc	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 5994	E:\My Program\T2\Output\debug\HideDragon.exe	0x00cc0693	User32	DestroyMenu
+4137	Res: 	TrayPageProc	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 5994	E:\My Program\T2\Output\debug\HideDragon.exe	0x005d068b	User32	DestroyMenu
+4362	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x00080619	User32	DestroyMenu
+4916	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x00bf0639	User32	DestroyMenu
+7911	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x0cf3038b	User32	DestroyMenu
+8019	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x049204cf	User32	DestroyMenu
+8047	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x009205b7	User32	DestroyMenu
+8129	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x00be0641	User32	DestroyMenu
+8155	Res: 	<No symbol information for this address>	0xf00	00000000	E:\My Program\T2\Output\debug\sqlite3.dll ! 0x00015FB5	E:\My Program\T2\Output\debug\sqlite3.dll	0x60936000	Kernel32	DeleteCriticalSection
+8177	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x00b3066b	User32	DestroyMenu
+8214	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x006a05a7	User32	DestroyMenu
+8239	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x0a8703ef	User32	DestroyMenu
+8269	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x00a60671	User32	DestroyMenu
+8292	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x0d4b02a7	User32	DestroyMenu
+8323	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x00ae05ff	User32	DestroyMenu
+8361	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x00410575	User32	DestroyMenu
+8405	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x0069067b	User32	DestroyMenu
+8440	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x0080067f	User32	DestroyMenu
+8475	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x0067057f	User32	DestroyMenu
+8506	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x00190679	User32	DestroyMenu
+8534	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x000a069f	User32	DestroyMenu
+8569	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x001f0585	User32	DestroyMenu
+8609	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x001a0675	User32	DestroyMenu
+8649	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x002c0591	User32	DestroyMenu
+10103	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x4f6403e7	User32	DestroyMenu
+12501	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x04010683	User32	DestroyMenu
+13543	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x007405a5	User32	DestroyMenu
+13883	Res: 	BkWndHotkeyProc	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 2688	E:\My Program\T2\Output\debug\HideDragon.exe	0x0000c05b	Kernel32	GlobalDeleteAtom
+15844	Res: 	RegisterBKHotkey	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 5356	E:\My Program\T2\Output\debug\HideDragon.exe	0x0000c05c	Kernel32	GlobalDeleteAtom
+16641	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x0712035d	User32	DestroyMenu
+16688	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x00a90593	User32	DestroyMenu
+16914	Res: 	AddtionalPageProc	0xf00	00000000	e:\my program\t2\hidedragon\hd2.cpp - line 4770	E:\My Program\T2\Output\debug\HideDragon.exe	0xa3101ac7	Gdi32	DeleteObject
+26133	Res: 	MainProc1	0xf00	00000000	e:\my program\t2\hidedragon\hd.cpp - line 2177	E:\My Program\T2\Output\debug\HideDragon.exe	0x00700687	User32	DestroyMenu

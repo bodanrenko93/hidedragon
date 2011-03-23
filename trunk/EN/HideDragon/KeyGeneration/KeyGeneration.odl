@@ -1,0 +1,42 @@
+// KeyGeneration.odl : type library source for KeyGeneration.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (KeyGeneration.tlb).
+
+[ uuid(EB28F91D-C395-4D4A-875A-BC01AE043930), version(1.0) ]
+library KeyGeneration
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CKeyGenerationDoc
+	
+	[ uuid(1590B9AE-8845-4A55-9085-14AF62EACBB5) ]
+	dispinterface IKeyGeneration
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CKeyGenerationDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CKeyGenerationDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CKeyGenerationDoc
+	
+	[ uuid(C460231D-EBA5-4316-BD60-4B3F59C59926) ]
+	coclass KeyGeneration
+	{
+		[default] dispinterface IKeyGeneration;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

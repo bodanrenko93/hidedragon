@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HOOKLIB", "..\HOOKLIB\HOOKLIB.vcproj", "{DEFE0C47-3EA0-4838-A098-488E157DA7ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HideDragon", "HideDragon.vcproj", "{CFC7BB6E-63F1-4A48-8EA2-6CBFEC1413C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DEFE0C47-3EA0-4838-A098-488E157DA7ED}.Debug.ActiveCfg = Debug|Win32
+		{DEFE0C47-3EA0-4838-A098-488E157DA7ED}.Debug.Build.0 = Debug|Win32
+		{DEFE0C47-3EA0-4838-A098-488E157DA7ED}.Release.ActiveCfg = Release|Win32
+		{DEFE0C47-3EA0-4838-A098-488E157DA7ED}.Release.Build.0 = Release|Win32
+		{CFC7BB6E-63F1-4A48-8EA2-6CBFEC1413C1}.Debug.ActiveCfg = Debug|Win32
+		{CFC7BB6E-63F1-4A48-8EA2-6CBFEC1413C1}.Debug.Build.0 = Debug|Win32
+		{CFC7BB6E-63F1-4A48-8EA2-6CBFEC1413C1}.Release.ActiveCfg = Release|Win32
+		{CFC7BB6E-63F1-4A48-8EA2-6CBFEC1413C1}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
