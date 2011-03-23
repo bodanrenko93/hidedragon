@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HideProc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\YANGZI~1.ZLG\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/HideProc.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\projects\HideProc\HideProc.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\YANGZI~1.ZLG\LOCALS~1\Temp\RSP1E.tmp" 
+Creating temporary file "C:\DOCUME~1\YANGZI~1.ZLG\LOCALS~1\Temp\RSP1F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HideProc.pdb" /debug /machine:I386 /out:"Debug/HideProc.exe" /pdbtype:sept 
+.\Debug\HideProc.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\YANGZI~1.ZLG\LOCALS~1\Temp\RSP1F.tmp"
+<h3>Output Window</h3>
+Compiling...
+HideProc.c
+d:\myvc\vc98\simpleddk\inc\ntddk.h(7914) : error C2146: syntax error : missing ';' before identifier 'InterruptTime'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(7914) : error C2061: syntax error : identifier 'InterruptTime'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(7928) : error C2061: syntax error : identifier 'SystemTime'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(7928) : error C2059: syntax error : ';'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(7935) : error C2061: syntax error : identifier 'TimeZoneBias'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(7935) : error C2059: syntax error : ';'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(8048) : error C2059: syntax error : '}'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(9101) : error C2061: syntax error : identifier 'PCONTEXT'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(9102) : error C2059: syntax error : '}'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(10051) : error C2061: syntax error : identifier 'KeTickCount'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(10051) : error C2059: syntax error : ';'
+d:\myvc\vc98\simpleddk\inc\ntddk.h(10075) : error C2040: 'KdDebuggerEnabled' : 'unsigned char *' differs in levels of indirection from 'unsigned char '
+d:\myvc\vc98\simpleddk\inc\ntddk.h(10342) : fatal error C1189: #error :  "Target architecture not defined"
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+HideProc.exe - 13 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

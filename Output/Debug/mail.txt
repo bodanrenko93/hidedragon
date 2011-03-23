@@ -1,0 +1,59 @@
+
+我的产品是隐身专家，
+
+HIDEDRAGON是一款保护屏幕隐私的软件。
+
+
+我用$99提交了，但HIDEDRAGON的下载量仍然很小。
+
+记得HIDEDRAGON 2.5时，在DWONLOAD被评为5 STAR。
+
+现在我重新制作了HIDEDRAGON的网站。http://www.HideDragon.com
+
+
+并且修复HIDEDRAGON一些重要的BUG,比如有的托盘图标隐藏后，不能重新显示等等。
+
+
+如果您试用一下HIDEDRAGON，您会发现HIDEDRAGON优于其它同类的软件。
+
+HIDEDRAGON可以只按一下鼠标中键即可隐藏所有窗口，并且可以在窗口列表里选择不想隐藏的窗品。
+
+可以通过向导隐藏托盘，以及更多精彩的功能。
+
+很多用户试用了HIDEDRAGON后，每天已经离不开了HIDEDRAGON，不论是在OFFICE工作，还是在家里。
+
+下边是HIDEDRAGON的全部功能列表：
+
+Quick hide windows: 	  
+	  *Click mouse middle button to hide desktop windows and tray icons. 
+          *Click mouse's left and right button together to hide desktop windows and tray icons. 
+          *Use hotkey hide desktop windows. 
+          *Password protection,re display hidden windows must input password. 
+          *Minimize the systemic sound after &hide windows. 
+          *Automatic reserved window. 
+          *Run specified program after quick hide window. 
+   Backgrounding application or tray icon:  
+          *Use wizard to appoint application to background.
+ 
+          *Use wizard to appoint tray icon to background.  
+          *Use hotkey to appoint application to background. 
+          *Appoint application to background in 'Windows List'. 
+          *Auto-Hide popup windows of background processing programs. 
+   Window Disguise:  
+          *Set up window transparent. 
+          *Change window's icon.  
+          *Change window's title.  
+
+同时HIDEDRAGON还在开发新版，新版加入了更多创新的功能。
+
+ 您可不可以将HIDEDRAGON重新恢复为5 Star，如果您觉得HIDEDRAGON还有哪些有瑕疵的地方，请告诉我，我一定会下一版改进。
+
+
+如果您能将HIDEDRAGON重新恢复为5 STAR，我将非常感谢您，并且这个奖也将激励我继续HIDEDRAGON的开发，增加更多创新的功能。
+
+
+谢谢！
+
+
+
+

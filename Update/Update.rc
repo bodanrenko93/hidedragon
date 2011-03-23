@@ -1,0 +1,248 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_UPDATE              ICON    DISCARDABLE     "Update.ICO"
+IDI_SMALL               ICON    DISCARDABLE     "SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_UPDATE MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_UPDATE ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  22, 17, 230, 75
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_UPDATE,IDC_MYICON,14,9,16,16
+    LTEXT           "Update Version 1.0",IDC_STATIC,49,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2005",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+IDD_DIALOG_MAIN DIALOG DISCARDABLE  0, 0, 338, 109
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "隐身专家 在线更新"
+MENU IDC_UPDATE
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "开始",IDC_START,282,54,50,42
+    LTEXT           "1.正在连接服务器",IDC_STATIC_CONNECT,13,52,188,8
+    LTEXT           "2.正在检查更新组件",IDC_STATIC_CHECK,13,65,206,8
+    LTEXT           "3.正在下载文件",IDC_STATIC_DOWNLOAD,13,77,211,8
+    LTEXT           "4.正在安装文件",IDC_STATIC_INSTALL,13,89,202,8
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",PBS_SMOOTH | 
+                    WS_BORDER,0,101,338,8
+    PUSHBUTTON      "生成文件",IDC_CREATEFILE,219,58,49,13
+    LTEXT           "更新进度:",IDC_STATIC_UPDATEPROGRESS,6,38,139,8
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,2,1,333,38
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 385, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_DIALOG_IFUPDATENOW DIALOG DISCARDABLE  0, 0, 254, 66
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "隐身专家"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "隐身专家已发布更新版本，为了体验更强大的功能，和更稳定的性能，推荐您：",
+                    IDC_STATIC_IFUPDATENOW,10,12,239,21
+    DEFPUSHBUTTON   "立即更新(速度极快)",IDC_UPDATENOW,104,35,143,19
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 378
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,9,0,0
+ PRODUCTVERSION 2,9,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "隐身专家是一款屏幕隐私保护软件。\0"
+            VALUE "CompanyName", "http://kinghome.51.net\0"
+            VALUE "FileDescription", "隐身专家在线更新模块\0"
+            VALUE "FileVersion", "2, 9, 0, 0\0"
+            VALUE "InternalName", "HDUpdate\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007.9 董大鹏\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "HDUpdate.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "HDUpdate.exe\0"
+            VALUE "ProductVersion", "2, 9, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "Update"
+    IDS_HELLO               "Hello World!"
+    IDC_UPDATE              "UPDATE"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HideDragon - Win32 Release_NAD--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\U1\AppData\Local\Temp\RSPC284.tmp" with contents
+[
+/nologo /MD /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "UNICODE" /D "_UNICODE" /D "_NOADS" /FR"HideDragon___Win32_Release_NAD/" /Fp"HideDragon___Win32_Release_NAD/HideDragon.pch" /YX /Fo"HideDragon___Win32_Release_NAD/" /Fd"HideDragon___Win32_Release_NAD/" /FD /c 
+"D:\my program\T2\EN\HideDragon\hd2.cpp"
+]
+Creating command line "cl.exe @C:\Users\U1\AppData\Local\Temp\RSPC284.tmp" 
+Creating temporary file "C:\Users\U1\AppData\Local\Temp\RSPC295.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ..\Output\Release\hooklib.lib comctl32.lib shlwapi.lib ws2_32.lib version.lib wininet.lib shell32.lib shlwapi.lib unrar.lib sqlite3\sqlite3.lib Rasapi32.lib /nologo /subsystem:windows /incremental:no /pdb:"HideDragon___Win32_Release_NAD/HideDragon.pdb" /machine:I386 /out:"..\Output\Release\HideDragon.exe" 
+".\HideDragon___Win32_Release_NAD\ClearDlg.obj"
+".\HideDragon___Win32_Release_NAD\CppSQLite3.obj"
+".\HideDragon___Win32_Release_NAD\CWebPage.obj"
+".\HideDragon___Win32_Release_NAD\DBClass.obj"
+".\HideDragon___Win32_Release_NAD\hd.obj"
+".\HideDragon___Win32_Release_NAD\hd2.obj"
+".\HideDragon___Win32_Release_NAD\hd3.obj"
+".\HideDragon___Win32_Release_NAD\HyperLink.obj"
+".\HideDragon___Win32_Release_NAD\UseProxyDlg.obj"
+".\HideDragon___Win32_Release_NAD\WebDB.obj"
+".\HideDragon___Win32_Release_NAD\WINButton.obj"
+".\HideDragon___Win32_Release_NAD\HDResource.res"
+]
+Creating command line "link.exe @C:\Users\U1\AppData\Local\Temp\RSPC295.tmp"
+<h3>Output Window</h3>
+Compiling...
+hd2.cpp
+Linking...
+Creating temporary file "C:\Users\U1\AppData\Local\Temp\RSPD107.bat" with contents
+[
+@echo off
+copy ..\Output\Release\HideDragon.exe   "..\Product_NAD\hidedragon.exe"
+]
+Creating command line "C:\Users\U1\AppData\Local\Temp\RSPD107.bat"
+Copy to Product_NAD directory
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+HideDragon.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

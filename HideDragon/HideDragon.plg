@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HideDragon - Win32 Release_NP--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"HideDragon___Win32_Release_NP/HDResource.res" /d "NDEBUG" "D:\my program\T2\HideDragon\HDResource.rc"" 
+Creating temporary file "C:\Users\u1\AppData\Local\Temp\RSP2DFD.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "UNICODE" /D "_UNICODE" /FR"HideDragon___Win32_Release_NP/" /Fp"HideDragon___Win32_Release_NP/HideDragon.pch" /YX /Fo"HideDragon___Win32_Release_NP/" /Fd"HideDragon___Win32_Release_NP/" /FD /c 
+"D:\my program\T2\HideDragon\ClearDlg.cpp"
+"D:\my program\T2\HideDragon\Sqlite3\CppSQLite3.cpp"
+"D:\my program\T2\HideDragon\CWebPage.c"
+"D:\my program\T2\HideDragon\DBClass.cpp"
+"D:\my program\T2\HideDragon\hd.cpp"
+"D:\my program\T2\HideDragon\hd2.cpp"
+"D:\my program\T2\HideDragon\hd3.cpp"
+"D:\my program\T2\HideDragon\HyperLink.cpp"
+"D:\my program\T2\HideDragon\PictureEx.cpp"
+"D:\my program\T2\HideDragon\UseProxyDlg.cpp"
+"D:\my program\T2\HideDragon\WebDB.cpp"
+"D:\my program\T2\HideDragon\ButtonClass\WINButton.cpp"
+]
+Creating command line "cl.exe @C:\Users\u1\AppData\Local\Temp\RSP2DFD.tmp" 
+Creating temporary file "C:\Users\u1\AppData\Local\Temp\RSP2E0E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ..\Output\Release\hooklib.lib comctl32.lib shlwapi.lib ws2_32.lib version.lib wininet.lib shell32.lib shlwapi.lib unrar.lib sqlite3\sqlite3.lib Rasapi32.lib /nologo /subsystem:windows /incremental:no /pdb:"HideDragon___Win32_Release_NP/Hide_Show.pdb" /machine:I386 /out:"..\Output\Release\Hide_Show.exe" 
+".\HideDragon___Win32_Release_NP\ClearDlg.obj"
+".\HideDragon___Win32_Release_NP\CppSQLite3.obj"
+".\HideDragon___Win32_Release_NP\CWebPage.obj"
+".\HideDragon___Win32_Release_NP\DBClass.obj"
+".\HideDragon___Win32_Release_NP\hd.obj"
+".\HideDragon___Win32_Release_NP\hd2.obj"
+".\HideDragon___Win32_Release_NP\hd3.obj"
+".\HideDragon___Win32_Release_NP\HyperLink.obj"
+".\HideDragon___Win32_Release_NP\PictureEx.obj"
+".\HideDragon___Win32_Release_NP\UseProxyDlg.obj"
+".\HideDragon___Win32_Release_NP\WebDB.obj"
+".\HideDragon___Win32_Release_NP\WINButton.obj"
+".\HideDragon___Win32_Release_NP\HDResource.res"
+]
+Creating command line "link.exe @C:\Users\u1\AppData\Local\Temp\RSP2E0E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ClearDlg.cpp
+CppSQLite3.cpp
+CWebPage.c
+D:\my program\T2\HideDragon\CWebPage.c(180) : warning C4028: formal parameter 1 different from declaration
+D:\my program\T2\HideDragon\CWebPage.c(181) : warning C4028: formal parameter 1 different from declaration
+D:\my program\T2\HideDragon\CWebPage.c(182) : warning C4028: formal parameter 1 different from declaration
+DBClass.cpp
+hd.cpp
+hd2.cpp
+hd3.cpp
+HyperLink.cpp
+PictureEx.cpp
+UseProxyDlg.cpp
+WebDB.cpp
+WINButton.cpp
+Linking...
+Creating temporary file "C:\Users\u1\AppData\Local\Temp\RSP669B.bat" with contents
+[
+@echo off
+copy ..\Output\Release\Hide_Show.exe   "..\Product_NP\Hide_Show.exe"
+]
+Creating command line "C:\Users\u1\AppData\Local\Temp\RSP669B.bat"
+Copy to Product_NP directory
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+Hide_Show.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

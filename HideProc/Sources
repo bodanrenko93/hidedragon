@@ -1,0 +1,5 @@
+TARGETNAME=..\..\HideProc
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+SOURCES		=	HideProc.c

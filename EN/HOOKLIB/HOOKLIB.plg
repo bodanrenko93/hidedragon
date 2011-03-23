@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HOOKLIB - Win32 Release_NP--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"HOOKLIB___Win32_Release_NP/HOOKLIB.res" /d "NDEBUG" "D:\my program\T2\EN\HOOKLIB\HOOKLIB.RC"" 
+Creating temporary file "C:\Users\U1\AppData\Local\Temp\RSP263F.tmp" with contents
+[
+/nologo /MT /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HOOKLIB_EXPORTS" /D "UNICODE" /D "_UNICODE" /Fp"HOOKLIB___Win32_Release_NP/HOOKLIB.pch" /YX /Fo"HOOKLIB___Win32_Release_NP/" /Fd"HOOKLIB___Win32_Release_NP/" /FD /c 
+"D:\my program\T2\EN\HOOKLIB\Driver.cpp"
+"D:\my program\T2\EN\HOOKLIB\HookLib.cpp"
+"D:\my program\T2\EN\HOOKLIB\Volume\VolumeOutMaster.cpp"
+"D:\my program\T2\EN\HOOKLIB\Volume\VolumeOutWave.cpp"
+]
+Creating command line "cl.exe @C:\Users\U1\AppData\Local\Temp\RSP263F.tmp" 
+Creating temporary file "C:\Users\U1\AppData\Local\Temp\RSP2650.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib shlwapi.lib comctl32.lib /nologo /dll /incremental:no /pdb:"..\Output\Release/HOOKLIB.pdb" /machine:I386 /out:"..\Output\Release/HOOKLIB.dll" /implib:"..\Output\Release/HOOKLIB.lib" 
+".\HOOKLIB___Win32_Release_NP\Driver.obj"
+".\HOOKLIB___Win32_Release_NP\HookLib.obj"
+".\HOOKLIB___Win32_Release_NP\VolumeOutMaster.obj"
+".\HOOKLIB___Win32_Release_NP\VolumeOutWave.obj"
+".\HOOKLIB___Win32_Release_NP\HOOKLIB.res"
+]
+Creating command line "link.exe @C:\Users\U1\AppData\Local\Temp\RSP2650.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Driver.cpp
+HookLib.cpp
+VolumeOutMaster.cpp
+VolumeOutWave.cpp
+Linking...
+   Creating library ..\Output\Release/HOOKLIB.lib and object ..\Output\Release/HOOKLIB.exp
+Creating temporary file "C:\Users\U1\AppData\Local\Temp\RSP3493.bat" with contents
+[
+@echo off
+copy .\..\Output\Release\hooklib.dll "..\product_NP\hooklib.dll"
+copy .\..\Output\Release\hooklib.dll "..\product_NAD\hooklib.dll"
+]
+Creating command line "C:\Users\U1\AppData\Local\Temp\RSP3493.bat"
+Copy To Product_NP Directory
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+HOOKLIB.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

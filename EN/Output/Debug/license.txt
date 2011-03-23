@@ -1,0 +1,88 @@
+END USER LICENSE AGREEMENT 
+
+PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE. 
+
+
+
+1. License - By receiving and/or using this HideDragon software (the ¡°Software¡±), you accept and agree to be bound by the following User Agreement. Subject to the terms of this Agreement, HideDragon Company grants to you a limited, non-exclusive, non-transferable license, without right to sub-license, to use or evaluate this Software in accordance with this Agreement and any other written agreement with HideDragon Company. HideDragon Company does not transfer title to this Software to you; the license granted to you is not a sale. This Agreement is a binding legal agreement between HideDragon Company and the purchasers, users or evaluators of this Software. If you do not agree to be bound by this Agreement, remove this Software from your computer now and, if applicable, promptly return to us by mail any copies of this Software and related documentation and packaging in your possession. 
+
+
+
+2. Distribution ¨C Unless otherwise authorized herein, this Software and the license herein granted shall not be copied, shared, distributed, re-sold, offered for re-sale, transferred or sub-licensed in whole or in part except that you may make one copy for archive purposes only. For information about redistribution of this Software contact HideDragon Company at: 
+
+WWW: http://kinghome.51.net
+
+
+
+EMail:HDSupport@gmail.com
+
+
+
+3. User Agreement 
+
+
+
+3.1 Evaluation Version use -You may evaluate this Software without purchasing a license (the ¡°Evaluation Version¡±) for a maximum of Random calendar days (the "Evaluation Period"). On or before the expiration of the Evaluation Period, you must purchase a license from HideDragon Company in order to continue to use the Software, or you are required to remove this Software and any archived copy from your computer immediately following the expiration of the Evaluation Period. For more information about purchasing a license to use the Software, please see HideDragon Company website http://kinghome.51.net. 
+
+
+
+3.2 Activation of Software ¨C Once you have purchased a license from HideDragon Company in order to continue to use the Software, you may be required to activate the Software. There are technological measures within the Software that are designed to prevent unlicensed use of the Software. HideDragon Company will use those measures to confirm you have a valid licensed copy of the Software. HideDragon Company will not collect any personally identifiable information from your computer location or workstation during this process. 
+
+
+
+3.3 Distribution - The Evaluation Version of the Software may be freely distributed, provided that: 
+
+1. Such distribution includes only the original archive supplied by HideDragon Company. You may not alter, delete or add any files in the distribution archive or modify the Software in any way. 
+
+2. The limited evaluation nature of this Evaluation Version Software is not misrepresented. 
+
+3. No money is charged to the person receiving this Evaluation Version Software, beyond reasonable cost of packaging and other overhead. 
+
+4. You provide prior email or written notice to HideDragon Company at the email address  listed above that you are distributing this Evaluation Version and, if the Software is being distributed with other media or software, HideDragon Company's prior written approval is required. To obtain prior written approval, please contact HideDragon Company. You may be required to report to us the number of units of this Evaluation Version Software distributed from time to time. 
+
+
+
+3.4 Use -Your license to use this Software is limited to the number of licenses purchased by you. For more information about purchasing additional licenses of this Software please contact us through our website: 
+
+http://kinghome.51.net/
+
+You shall not allow others to use, copy or evaluate copies of this Software. Others may obtain a copy of this Software from: http://kinghome.51.net/
+
+
+
+3.6 Use Restrictions - You shall use this Software in compliance with all applicable laws and not for any unlawful purpose. Without limiting the foregoing, use, display or distribution of this Software together with material that is pornographic, racist, vulgar, obscene, defamatory, libelous, abusive, promoting hatred, discriminating or displaying prejudice based on religion, ethnic heritage, race, sexual orientation or age is strictly prohibited. 
+
+
+
+Each licensed copy of this Software may be used on one single computer location or workstation. ¡°Use¡± of the Software means that you have loaded, installed, or run the Software on a computer or similar device. If you install the Software onto a multi-user platform, server or network, each and every individual user of the Software must be licensed separately or included by a multi-site license. You may make one copy of this Software for backup purposes, providing you only have one copy installed on one computer location or workstation (or number of users covered in a multi site license). Others may not use or install your copy of this Software. The assignment, sublicense, networking, sale, or distribution of copies of this Software are strictly forbidden without the prior written consent of HideDragon Company. It is a violation of this Agreement to assign, sell, share, loan, rent, lease, borrow, network or transfer the use of this Software. If any person other than yourself uses Software registered in your name on another computer location or workstation, regardless of whether it is at the same time or different times, then this Agreement is being violated and you are responsible for that violation! 
+
+
+
+3.7 Copyright Restriction - This Software contains copyrighted material, trade secrets and other proprietary material. You shall not, and shall not attempt to, modify, reverse engineer, disassemble or decompile this Software. Nor can you create any derivative works or other works that are based upon or derived from the Software in whole or in part. 
+
+HideDragon Company's name, logo and graphics file that represents our Software shall not be used in any way to promote products developed with our Software. HideDragon Company retains sole and exclusive ownership of all right, title and interest in and to the Software and all Intellectual Property rights relating thereto. Copyright law and international copyright treaty provisions protect all parts of HideDragon Company Software, products and services. No program, code, part, image, audio sample, or text may be copied or used in any way by the user except as intended within the bounds of the single user program. All rights not expressly granted hereunder are reserved for HideDragon Company. 
+
+
+
+3.8 Limitation of Responsibility - HideDragon IS DISTRIBUTED "AS IS". NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE AT YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.
+
+
+
+3.9 Warranties - Except as expressly stated in writing, HideDragon Company makes no representation or warranties in respect of this Software and expressly excludes all other warranties, expressed or implied, oral or written, including, without limitation, any implied warranties of merchantable quality or fitness for a particular purpose. 
+
+
+
+3.11 Termination - Any failure to comply with the terms and conditions of this Agreement will result in automatic and immediate termination of this license. Upon termination of this license granted herein for any reason, you agree to immediately cease use of the Software and destroy all copies of the Software supplied under this Agreement. The financial obligations incurred by you shall survive the expiration or termination of this license. 
+
+
+
+4. Registration - To register the Software you can do one of the following:  1) submit the registration information online through the registration screen found within the Software (if applicable); or 2) submit the registration information online through HideDragon Company's Support pages at http://kinghome.51.net . As a registered user, you will have the option to receive helpful information and special email offers for HideDragon Company customers, as well as HideDragon Company's Monthly newsletters featuring tips, tricks, updates and savings. 
+
+
+
+5. Consent to Use of Data - You agree that HideDragon Company may collect and use information gathered in any manner as part of the product support services provided to you, if any, related to the Software. HideDragon Company may also use this information to provide notices to you which may be of use or interest to you. You can elect to not receive any further notices from HideDragon Company Systems, either by 1) unsubscribing directly to any e-mail you receive or 2) by visiting our preference center at http://kinghome.51.net , which lists the publications you are subscribed to and allows you to unsubscribe or change your preferences (you can log-in to the preference center once you have submitted your e-mail address to HideDragon Company Systems and it has been processed). The Software contains components that enable and facilitate the use of certain Internet-based services. You acknowledge and agree that HideDragon Company may automatically check the version of the Software that you are utilizing and may provide upgrades or fixes to the Software. In order to receive such upgrades or fixes, you must agree to the download when prompted. You are not obligated to download any upgrades or fixes to the Software that are provided by HideDragon Company. 
+
+
+
+THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. 
+
